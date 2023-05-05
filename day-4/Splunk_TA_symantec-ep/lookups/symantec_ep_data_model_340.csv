@@ -1,0 +1,53 @@
+event_description,cim_data_model,dataset
+The client has downloaded the content package successfully,Change,NA
+The client has downloaded the policy successfully,Change,NA
+The client has downloaded globalindex.dax,Change,NA
+The client has reconnected with the management server,Change,NA
+The client computer has been added to the group,Change,NA
+The client registered with the management server successfully,Change,NA
+Administrator log on succeeded,Authentication,NA
+Administrator log on failed,Authentication,NA
+Symantec Endpoint Protection is unable to download the newest policy from the management server.,Alert,NA
+Symantec Endpoint Protection requires a restart,Alert,NA
+The client does not have a paid license.  The current license cannot be used to obtain a client authentication token.,Alert,NA
+Please restart your computer to enable Application Control Policy changes.,Alert,NA
+Symantec Endpoint Protection has determined that the virus definitions are missing on this computer. This computer will remain unprotected from viruses until virus definitions are downloaded to this computer.,Alert,NA
+Scan resumed on all drives and all extensions.,Alert,NA
+Symantec Management Client has been started.,Change,NA
+Symantec Management Client is stopped.,Change,NA
+Management server started up successfully,Change,NA
+Management server shut down gracefully,Change,NA
+The administrator's user name or password is incorrect. Type a valid user name or password.,Authentication,NA
+Added Symantec license*,Change,NA
+Deleted Symantec license*,Change,NA
+This device is not licensed *,Alert,NA
+Already running process*,Alert,NA
+Applied new policy with serial number*,Change,NA
+An update for * successfully installed.*,Change,NA
+The client has successfully downloaded*,Change,NA
+*Remote file path:*,Change,NA
+*File submitted to Symantec*,Alert,NA
+Received a new policy with serial number*,Change,NA
+A LiveUpdate session ran successfully*,Change,NA
+Transaction log truncation *,Change,NA
+Successfully downloaded*,Change,NA
+Download started.,Change,NA
+Backup initiated by scheduled task*,Change,NA
+Backup succeeded and finished*,Change,NA
+Symantec Endpoint Protection -- Engine version*,Inventory,Inventory
+The client has downloaded the auto-upgrade configuration file successfully,Change,NA
+Client has downloaded the issued Command,Change,NA
+Host Integrity check passed*,Alert,NA
+Database maintenance started.,Change,NA
+Network Audit Client Remote Pushing Install Finished Normally,Change,NA
+Symantec Endpoint Protection services startup was successful.,Change,NA
+Successfully imported a communications XML file.,Change,NA
+Cannot assign a client authentication token. This client is over the maximum allocation of client authentication tokens.,Alert,NA
+[Client authentication token request] Submitting information to Symantec failed.,Alert,NA
+Added shared policy upon system install*,Change,NA
+Policy has been*,Change,NA
+*Name="New Intrusion Prevention policy"*,Change,NA
+*Name="New Firewall policy"*,Change,NA
+*Name="New Virus and Spyware Protection policy"*,Change,NA
+*Name="Default Intensive Protection Policy v1"*,Change,NA
+Default Intensive Protection Policy *,Change,NA

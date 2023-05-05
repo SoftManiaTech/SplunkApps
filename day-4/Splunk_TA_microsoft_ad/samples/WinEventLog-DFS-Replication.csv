@@ -1,0 +1,239 @@
+index,host,source,sourcetype,"_raw","_time"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:50:21 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1002
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=1
+Keywords=Classic
+Message=The DFS Replication service is starting.","2014-12-29T15:50:21.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:50:21 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1004
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=2
+Keywords=Classic
+Message=The DFS Replication service has started.","2014-12-29T15:50:21.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:50:22 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1314
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=3
+Keywords=Classic
+Message=The DFS Replication service successfully configured the debug log files. 
+ 
+Additional Information: 
+Debug Log File Path: C:\Windows\debug","2014-12-29T15:50:22.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:50:24 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=6102
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=4
+Keywords=Classic
+Message=The DFS Replication service has successfully registered the WMI provider.","2014-12-29T15:50:24.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:50:25 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1202
+EventType=2
+Type=Error
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=5
+Keywords=Classic
+Message=The DFS Replication service failed to contact domain controller  to access configuration information. Replication is stopped. The service will try again during the next configuration polling cycle, which will occur in 60 minutes. This event can be caused by TCP/IP connectivity, firewall, Active Directory Domain Services, or DNS issues. 
+ 
+Additional Information: 
+Error: 1355 (The specified domain either does not exist or could not be contacted.)","2014-12-29T15:50:25.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:52:51 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1006
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=6
+Keywords=Classic
+Message=The DFS Replication service is stopping.","2014-12-29T15:52:51.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:52:51 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1008
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=7
+Keywords=Classic
+Message=The DFS Replication service has stopped.","2014-12-29T15:52:51.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:53:56 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1002
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=8
+Keywords=Classic
+Message=The DFS Replication service is starting.","2014-12-29T15:53:56.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:53:56 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1004
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=9
+Keywords=Classic
+Message=The DFS Replication service has started.","2014-12-29T15:53:56.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:53:57 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1314
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=10
+Keywords=Classic
+Message=The DFS Replication service successfully configured the debug log files. 
+ 
+Additional Information: 
+Debug Log File Path: C:\Windows\debug","2014-12-29T15:53:57.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:54:22 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=6102
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=11
+Keywords=Classic
+Message=The DFS Replication service has successfully registered the WMI provider.","2014-12-29T15:54:22.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:54:24 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1206
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=12
+Keywords=Classic
+Message=The DFS Replication service successfully contacted domain controller WIN-6LR3JNJ6LVD.spl.com to access configuration information.","2014-12-29T15:54:24.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:54:24 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=8000
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=13
+Keywords=Classic
+Message=The DFSR global settings required for SYSVOL migration have been successfully created on the Primary Domain Controller WIN-6LR3JNJ6LVD. Migration will not be triggered until the DFSR global settings are replicated to all the Domain Controllers. 
+ 
+Additional Information: 
+Primary Domain Controller: WIN-6LR3JNJ6LVD","2014-12-29T15:54:24.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:54:24 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=6016
+EventType=3
+Type=Warning
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=14
+Keywords=Classic
+Message=The DFS Replication service failed to update configuration in Active Directory Domain Services. The service will retry this operation periodically. 
+ 
+Additional Information: 
+Object Category: msDFSR-LocalSettings 
+Object DN: CN=DFSR-LocalSettings,CN=WIN-6LR3JNJ6LVD,OU=Domain Controllers,DC=spl,DC=com 
+Error: 1355 (The specified domain either does not exist or could not be contacted.) 
+Domain Controller:  
+Polling Cycle: 60","2014-12-29T15:54:24.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:54:24 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=1210
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=15
+Keywords=Classic
+Message=The DFS Replication service successfully set up an RPC listener for incoming replication requests. 
+ 
+Additional Information: 
+Port: 0","2014-12-29T15:54:24.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:54:24 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=4602
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=16
+Keywords=Classic
+Message=The DFS Replication service successfully initialized the SYSVOL replicated folder at local path C:\Windows\SYSVOL\domain. This member is the designated primary member for this replicated folder. No user action is required. To check for the presence of the SYSVOL share, open a command prompt window and then type ""net share"". 
+ 
+Additional Information: 
+Replicated Folder Name: SYSVOL Share 
+Replicated Folder ID: A79DA0C9-AA74-4327-8F80-912BAE1B5BA5 
+Replication Group Name: Domain System Volume 
+Replication Group ID: 064E4F9C-D856-4C96-BCA0-FCE04B28E229 
+Member ID: 5CDB09D2-F4E2-4974-A9EA-C745E52B961D 
+Read-Only: 0","2014-12-29T15:54:24.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DFS Replication","WinEventLog:DFS-Replication","12/29/2014 03:59:26 PM
+LogName=DFS Replication
+SourceName=DFSR
+EventCode=6018
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=17
+Keywords=Classic
+Message=The DFS Replication service successfully updated configuration in Active Directory Domain Services. 
+ 
+Additional Information: 
+Domain Controller: WIN-6LR3JNJ6LVD.spl.com 
+Polling Cycle: 60 minutes","2014-12-29T15:59:26.000-0800"

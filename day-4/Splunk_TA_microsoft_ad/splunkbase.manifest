@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "date": "2022-11-12T09:53:00.606260897Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 3207,
+    "version": "1.0.0",
+    "files": [
+      {
+        "path": "README.txt",
+        "hash": "335c6eb5154d29dea68740224a32828835539dbf51d63580491ff05dfe216f0f"
+      },
+      {
+        "path": "appserver/static/appIcon.png",
+        "hash": "b0bca6df1563c074c7dbfcac48a7b67cef44697b42e76ffbb76b999f0383ccdc"
+      },
+      {
+        "path": "bin/Invoke-MonitoredScript.ps1",
+        "hash": "fb3a7f75f06713aebe80d3d1d10db61664fcd38d2a1fc0bc763353d38b666dcf"
+      },
+      {
+        "path": "bin/powershell/2012r2-health.ps1",
+        "hash": "6544efaf45d1678f8e5568d9c88735cc41bbcd695932c6dfc1fbc554edeece9d"
+      },
+      {
+        "path": "bin/powershell/2012r2-repl-stats.ps1",
+        "hash": "cda4c1ce194a0938b2203ca848fe0444edc35dcfa95883830c8edf6787b382dd"
+      },
+      {
+        "path": "bin/powershell/2012r2-siteinfo.ps1",
+        "hash": "66b9c4f04827278ee4e1fd4bcafa4450e3a486929dbf2c8f64ad219483a57957"
+      },
+      {
+        "path": "bin/powershell/nt6-health.ps1",
+        "hash": "8dc46640de6994cd95afdeac7c089adc7802a7683dd275b3095a1c48b8d4bef4"
+      },
+      {
+        "path": "bin/powershell/nt6-repl-stat.ps1",
+        "hash": "748e1080879de1f0f57c37d45139e81754148fd8eb8011cabd970433bc19e7f7"
+      },
+      {
+        "path": "bin/powershell/nt6-siteinfo.ps1",
+        "hash": "4a373467f500ecd2e2f7c2c669a8e81f945d4cd5d64be6123aa6f5ecf16c1bea"
+      },
+      {
+        "path": "bin/runpowershell.cmd",
+        "hash": "beea35625656a376f6ee73ce9c7d68af385cff7530633047ca5d13c3206f663a"
+      },
+      {
+        "path": "default/admon.conf",
+        "hash": "358a14c4789b1f57b39965c74e0296cb27a5a2935fb76a47932f259aaf46643f"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "d0784e87a2d5b06e617a422661db24462e3ef5760651e8c0577a696a40460c79"
+      },
+      {
+        "path": "default/eventgen.conf",
+        "hash": "f382ca4a7453479af1f4032fdcf39256f210c20c6341fff418044385b9a656e8"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "167a365b1bcb855c34545aa109c05477d94b41dfa887424fa8ac4e2779ad4808"
+      },
+      {
+        "path": "default/indexes.conf",
+        "hash": "8b901fd7fc55c8d28594ef2c24d9596c8e23975b1b03a51b51a3bb23e70dbacb"
+      },
+      {
+        "path": "default/inputs.conf",
+        "hash": "d252aec114efbb3bc3d0e3e3df4916bfad28fe460a8ddac6ef2c8707c71323a2"
+      },
+      {
+        "path": "default/perfmon.conf",
+        "hash": "f91ccffd1eea74e5d9827f02fddfe91267008a1b4f750798a58c81e980c895b1"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "af9d9b9eddf5b22d722c89dff1d27ec57bc6cf7b4a71a125733f1bfc284f3064"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "785168b8b71f0e3d27683b2611c4ac1eefd218963055edef73572466682a27f9"
+      },
+      {
+        "path": "license-eula.rtf",
+        "hash": "52ed437423e1fec818c133c2aa5399a09051e3d852214bb097abd4493bf524c7"
+      },
+      {
+        "path": "license-eula.txt",
+        "hash": "b1f64d4d3c6a8711e9967e05a2f2e354e24273191ac98ffd0b643319e60ac747"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "36b54b7b56bb6b352ad81dccdbca54060ff8eec123b82fa8730d88ec650a0521"
+      },
+      {
+        "path": "samples/MSAD-NT6-Health.sample",
+        "hash": "f96d77e334d2d37807b0c62686b9c3ab8526bd32c63c83fdb8c0f9787bebd0c6"
+      },
+      {
+        "path": "samples/MSAD-NT6-SiteInfo.sample",
+        "hash": "1929c250bfbd950d166236f7d54d63e27d62411ed4616bed2022ad02894430d0"
+      },
+      {
+        "path": "samples/WinEventLog-DFS-Replication.csv",
+        "hash": "b6262233298831a28339b739124d8ef492e2cecc8d511f35bfe0205c99d64211"
+      },
+      {
+        "path": "samples/WinEventLog-Directory-Service.csv",
+        "hash": "4bf5b618e367198567611a26425feb63452104ac5ec851d273e884a58fbc77ad"
+      },
+      {
+        "path": "samples/perfmon-Memory.csv",
+        "hash": "4f10667c0658cc8f14b3d668f34aa48c169b7a7342b6deb95229dcf9d3a12924"
+      },
+      {
+        "path": "samples/perfmon-NTDS.csv",
+        "hash": "796f6ff5cca1cb241109fdeebde0412bf5e8c389111387f3e8c2e7c62464a054"
+      },
+      {
+        "path": "samples/perfmon-Network_Interface.csv",
+        "hash": "19dd51d72a585d672dbe311d368b398093b45fe9bc034931b47dae490277c429"
+      },
+      {
+        "path": "samples/perfmon-Processor.csv",
+        "hash": "dfebcace4f6788d39e694d4732c36142c53d4e5a75b58fdcde8e7da44e4933cb"
+      },
+      {
+        "path": "samples/sourcetype-ActiveDirectory.csv",
+        "hash": "c259d6b8e932b7c433769e75ce574acfc555070ab881da0b1bcf51c17f4825ed"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "ed6f90e4767434de479b483bbf61a33e6a6df49e6343e175a4429571d6f94ca4"
+      },
+      {
+        "path": "static/appIconAlt.png",
+        "hash": "ed6f90e4767434de479b483bbf61a33e6a6df49e6343e175a4429571d6f94ca4"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "ed6f90e4767434de479b483bbf61a33e6a6df49e6343e175a4429571d6f94ca4"
+      },
+      {
+        "path": "static/appIconAlt_2x.png",
+        "hash": "ed6f90e4767434de479b483bbf61a33e6a6df49e6343e175a4429571d6f94ca4"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "7.0",
+        "7.1",
+        "7.2"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "7.0",
+        "7.1",
+        "7.2"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}

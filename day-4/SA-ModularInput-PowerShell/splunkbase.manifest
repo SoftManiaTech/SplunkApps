@@ -1,0 +1,224 @@
+{
+  "version": "1.0",
+  "date": "2022-11-14T18:07:49.280699086Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 1477,
+    "version": "1.2.1",
+    "files": [
+      {
+        "path": "windows_x86/bin/PowerShell.exe",
+        "hash": "c22c76c47dcab016694365e2c4263884291be171d717458fbeebac35893c5b54"
+      },
+      {
+        "path": "windows_x86/bin/PowerShell2.exe",
+        "hash": "7a25acc3e0c2bc2680e2410a735a87478d4043a6222d1e390b435891c0a9cfb3"
+      },
+      {
+        "path": "windows_x86_64/bin/PowerShell.exe",
+        "hash": "3355d36b9970ef9fc3968e54f94bd9a7bc19cf646843f6016744c33380369e06"
+      },
+      {
+        "path": "windows_x86_64/bin/PowerShell2.exe",
+        "hash": "d542e404d818a039661e71f8fffb23be35b8e7558d9ab5d8d18ad23f53a75bb0"
+      },
+      {
+        "path": "README.txt",
+        "hash": "62729aaf707c2d15f28074cca5fa678b04c236920e8ddbd25d409a717164a149"
+      },
+      {
+        "path": "README/inputs.conf.spec",
+        "hash": "a0fc9acc98603cdc4c8767ebc78a6fc5aa82875c00726e0730cfaabcb635e306"
+      },
+      {
+        "path": "appserver/static/appIcon.png",
+        "hash": "3b8368e6cdc98ac149a60cc744092db27dc3cc001ba66bbcb80c6d32c253a35f"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "1cb34f35c51b272a4c60952b6ce5cfbde012e16a863d83e24271a43f27720194"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "e457c623f9e6d5dc7e65d5ee142c936b78dd91174244a6272c4abfee8dbb26c8"
+      },
+      {
+        "path": "license-eula.rtf",
+        "hash": "26cc3409b082ee157ba435418d8adde176a363510fdfb2a568ccca915e1a9b9c"
+      },
+      {
+        "path": "license-eula.txt",
+        "hash": "98b7ba70adba20e20074cd61e6d739dab3432f88b6662d25100589c4313c91c6"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "0f32517e7307aa3e4583903b8b09ced272d102295363a77e7ad46caf7e5b73ff"
+      },
+      {
+        "path": "windows_x86/bin/Modules/LocalStorage/LocalStorage.psm1",
+        "hash": "8da2399f4f812b31beb2acda367883d4f0bc190f24e6e15316c2c4220f05d066"
+      },
+      {
+        "path": "windows_x86/bin/PowerShell.exe.config",
+        "hash": "180ed4738f61df83ca6d3a3fa26ffaf7c8fc7c1dbea8f2c352dbe740864e060a"
+      },
+      {
+        "path": "windows_x86/bin/PowerShell2.exe.config",
+        "hash": "19cfad61479f57526371f9c09553f23c9d2c97caa37d846c570294f9ebbca5c9"
+      },
+      {
+        "path": "windows_x86/bin/lib/net35/Common.Logging.NLog20.dll",
+        "hash": "e9e8b8eb2086a51b4e37096a2f04f5e0ce5a19af89f41e3c2d063ef2dea8f78c"
+      },
+      {
+        "path": "windows_x86/bin/lib/net35/Common.Logging.dll",
+        "hash": "62b57285005f5b3e688d35faf1d67546ea4d0078a72f9cf0a8d48787bfe0914d"
+      },
+      {
+        "path": "windows_x86/bin/lib/net35/Microsoft.Practices.Unity.Configuration.dll",
+        "hash": "b92de6dbbcea39dc320dcf38db69c0db1ca84749f5511a3457b11078fd7ef667"
+      },
+      {
+        "path": "windows_x86/bin/lib/net35/Microsoft.Practices.Unity.dll",
+        "hash": "7910859afc2969ce1745835fd920766767d079206a5ff10036a92a0c42c9a8a2"
+      },
+      {
+        "path": "windows_x86/bin/lib/net35/ModularInputsModule2.dll",
+        "hash": "36bba90bfbf959d8fd9b501a6468f6612ebf79e74aa6f7e65d50614e1d9857a3"
+      },
+      {
+        "path": "windows_x86/bin/lib/net35/NLog.dll",
+        "hash": "4efdf49d93160ccfee014eba05d3ca51299962991418b351d99468821df3ad45"
+      },
+      {
+        "path": "windows_x86/bin/lib/net35/Quartz.dll",
+        "hash": "7c28270d73a7596554eb2cb6d69824fe13f190bb128362977f8bb645d890ea2a"
+      },
+      {
+        "path": "windows_x86/bin/lib/net35/System.Management.Automation.dll",
+        "hash": "e1050af3ba7be5817c8170d6e2e3da2eaf1442128c1718e10b080d354fc48ad4"
+      },
+      {
+        "path": "windows_x86/bin/lib/net45/Common.Logging.NLog20.dll",
+        "hash": "a6e390b6343ee7f859c37198e163ea16e8aaf08e03cbb07d7192d24456383929"
+      },
+      {
+        "path": "windows_x86/bin/lib/net45/Common.Logging.dll",
+        "hash": "d6461b8c61b72ad7ef45505d61965533823c8efd7d4121ff54aae7ff2c6f51c4"
+      },
+      {
+        "path": "windows_x86/bin/lib/net45/Microsoft.Practices.Unity.Configuration.dll",
+        "hash": "9fb77747a3e93ab7d7c3d8b70275306d875a7b053ec88e8a0a31fde1f68a27d0"
+      },
+      {
+        "path": "windows_x86/bin/lib/net45/Microsoft.Practices.Unity.dll",
+        "hash": "8a7d5282b30f85b91af487b767e5835bebe5d41d975f30061da4b63c14bcae97"
+      },
+      {
+        "path": "windows_x86/bin/lib/net45/ModularInputsModule.dll",
+        "hash": "dcf172825a845c04b3e008ebb71173205612bda9d0634357d0b8757f112ae431"
+      },
+      {
+        "path": "windows_x86/bin/lib/net45/NLog.dll",
+        "hash": "546f59886b65a3988932663a3912c2d3f40465da5b6d544f8feed94c4f659c52"
+      },
+      {
+        "path": "windows_x86/bin/lib/net45/Quartz.dll",
+        "hash": "aa213fb8e76b0f6a64a347b42a2ee60fbe57a8198b5d35822148e27b7e9060e8"
+      },
+      {
+        "path": "windows_x86/bin/lib/net45/System.Management.Automation.dll",
+        "hash": "1d6278e9958a7c5ea68893d45418b36c426d559b95f475e3edd9499094690db6"
+      },
+      {
+        "path": "windows_x86_64/bin/Modules/LocalStorage/LocalStorage.psm1",
+        "hash": "8da2399f4f812b31beb2acda367883d4f0bc190f24e6e15316c2c4220f05d066"
+      },
+      {
+        "path": "windows_x86_64/bin/PowerShell.exe.config",
+        "hash": "180ed4738f61df83ca6d3a3fa26ffaf7c8fc7c1dbea8f2c352dbe740864e060a"
+      },
+      {
+        "path": "windows_x86_64/bin/PowerShell2.exe.config",
+        "hash": "19cfad61479f57526371f9c09553f23c9d2c97caa37d846c570294f9ebbca5c9"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net35/Common.Logging.NLog20.dll",
+        "hash": "e9e8b8eb2086a51b4e37096a2f04f5e0ce5a19af89f41e3c2d063ef2dea8f78c"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net35/Common.Logging.dll",
+        "hash": "62b57285005f5b3e688d35faf1d67546ea4d0078a72f9cf0a8d48787bfe0914d"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net35/Microsoft.Practices.Unity.Configuration.dll",
+        "hash": "b92de6dbbcea39dc320dcf38db69c0db1ca84749f5511a3457b11078fd7ef667"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net35/Microsoft.Practices.Unity.dll",
+        "hash": "7910859afc2969ce1745835fd920766767d079206a5ff10036a92a0c42c9a8a2"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net35/ModularInputsModule2.dll",
+        "hash": "82619e046cc0ff8eb48db3717fe8840b74f0cede04cb4a3f433c1347fac4759f"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net35/NLog.dll",
+        "hash": "4efdf49d93160ccfee014eba05d3ca51299962991418b351d99468821df3ad45"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net35/Quartz.dll",
+        "hash": "7c28270d73a7596554eb2cb6d69824fe13f190bb128362977f8bb645d890ea2a"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net35/System.Management.Automation.dll",
+        "hash": "e1050af3ba7be5817c8170d6e2e3da2eaf1442128c1718e10b080d354fc48ad4"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net45/Common.Logging.NLog20.dll",
+        "hash": "a6e390b6343ee7f859c37198e163ea16e8aaf08e03cbb07d7192d24456383929"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net45/Common.Logging.dll",
+        "hash": "d6461b8c61b72ad7ef45505d61965533823c8efd7d4121ff54aae7ff2c6f51c4"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net45/Microsoft.Practices.Unity.Configuration.dll",
+        "hash": "9fb77747a3e93ab7d7c3d8b70275306d875a7b053ec88e8a0a31fde1f68a27d0"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net45/Microsoft.Practices.Unity.dll",
+        "hash": "8a7d5282b30f85b91af487b767e5835bebe5d41d975f30061da4b63c14bcae97"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net45/ModularInputsModule.dll",
+        "hash": "dd7ea6280789e33b4bd244f9f9c268f310b1b8b3092a896c0d1e17d2b327538f"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net45/NLog.dll",
+        "hash": "546f59886b65a3988932663a3912c2d3f40465da5b6d544f8feed94c4f659c52"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net45/Quartz.dll",
+        "hash": "aa213fb8e76b0f6a64a347b42a2ee60fbe57a8198b5d35822148e27b7e9060e8"
+      },
+      {
+        "path": "windows_x86_64/bin/lib/net45/System.Management.Automation.dll",
+        "hash": "1d6278e9958a7c5ea68893d45418b36c426d559b95f475e3edd9499094690db6"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows"
+      ]
+    }
+  ]
+}

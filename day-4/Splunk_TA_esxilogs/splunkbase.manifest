@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "date": "2022-11-12T08:08:43.106657742Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 5603,
+    "version": "4.2.1",
+    "files": [
+      {
+        "path": "app.manifest",
+        "hash": "6c237f44d6cbb549d19ae703c3ac76fa8f4f94d64f7a2eb22259639ac63ab5e7"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "a7ff5b24e3e535dddd0c6f07d96c1c938ae742391b372411732f7fb33b885d0d"
+      },
+      {
+        "path": "default/inputs.conf",
+        "hash": "78e122868739e5c748b72f293c0d37ae1741ad505f222b3165d8aa2e4966cee7"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "a2adcf5a35ad3aabc41495e5e28e1c686a2fdcaef81b6b7088dcfbc5cd612718"
+      },
+      {
+        "path": "default/syslog_datetime.xml",
+        "hash": "42844fe4e14e123dbc58c406fcb5f11032c719f90d80c93e941fb8f7629a3815"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "d90af78156b4076db9778fd2e8840f7cd3263bd64bfd317484bcc9fe881d9bf0"
+      },
+      {
+        "path": "license-eula.rtf",
+        "hash": "8bc3fc5f9908c20081d3569b9d84114bcec6371acc520ee7324abf39e8107c73"
+      },
+      {
+        "path": "license-eula.txt",
+        "hash": "14a0a52e51f8d42465e5bc56d07b6f4ea6e0a159a96fb574410a0de0e700fdba"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "dcb9ea46d5f6697b8147ab2f85fcc4fc09149f8b5a8b657dcbbb6a9a9b513fe8"
+      },
+      {
+        "path": "README",
+        "hash": "ed5c49417dfcd0ec692560d86729f1a7f5f701076b3988b416bc7e8bb6bdd24e"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+      },
+      {
+        "path": "static/appIconAlt_2x.png",
+        "hash": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+      },
+      {
+        "path": "static/appIconAlt.png",
+        "hash": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.0",
+        "8.1",
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "8.0",
+        "8.1",
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}

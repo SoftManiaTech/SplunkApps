@@ -1,0 +1,5 @@
+severity_id,vendor_severity,severity
+8,Critical,critical
+7,Major,high
+6,Warning,medium
+4,Informational,informational

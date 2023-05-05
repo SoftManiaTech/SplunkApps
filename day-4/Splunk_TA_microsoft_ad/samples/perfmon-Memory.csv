@@ -1,0 +1,691 @@
+index,host,source,sourcetype,"_raw","_time"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 07:21:33.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T07:21:33.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 07:21:33.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T07:21:33.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107072144.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T07:21:44.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 07:23:19.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T07:23:19.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 07:23:52.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 07:23:52.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T07:23:52.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 07:24:43.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T07:24:43.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 07:24:50.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 07:24:50.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T07:24:50.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 07:24:59.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T07:24:59.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 07:25:03.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 07:25:03.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T07:25:03.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 07:25:43.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T07:25:43.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107072600.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T07:26:00.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107072821.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T07:28:21.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107072834.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T07:28:34.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107073052.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T07:30:52.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107073138.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T07:31:38.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107073308.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T07:33:08.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107073346.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T07:33:46.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107073828.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T07:38:28.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107073925.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T07:39:25.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107074014.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T07:40:14.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107074134.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T07:41:34.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107074333.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T07:43:33.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107074623.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T07:46:23.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107074702.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T07:47:02.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107074932.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T07:49:32.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107075020.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T07:50:20.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107075312.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T07:53:12.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107075507.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T07:55:07.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107075509.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T07:55:09.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107075929.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T07:59:29.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107080005.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:00:05.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107080137.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:01:37.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107080252.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:02:52.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107080353.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:03:53.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107080522.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:05:22.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107080726.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:07:26.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107081106.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:11:06.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107081145.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:11:45.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107081157.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:11:57.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107081434.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:14:34.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107081625.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:16:25.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107081909.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:19:09.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107082051.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:20:51.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107082113.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:21:13.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 08:22:08.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T08:22:08.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 08:22:58.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 08:22:58.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T08:22:58.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107082310.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:23:10.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 08:23:13.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T08:23:13.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 08:23:15.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T08:23:15.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 08:24:52.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T08:24:52.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107082512.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:25:12.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 08:25:21.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T08:25:21.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107082541.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:25:41.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 08:25:46.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T08:25:46.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 08:26:34.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T08:26:34.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 08:26:34.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 08:26:34.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T08:26:34.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 08:26:54.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 08:26:54.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T08:26:54.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107083207.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:32:07.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107083208.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:32:08.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107083210.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:32:10.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107083306.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:33:06.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107083444.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:34:44.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107083507.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:35:07.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107083840.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:38:40.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107084026.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:40:26.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107084159.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:41:59.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107084335.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:43:35.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107084540.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:45:40.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107084652.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:46:52.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107084750.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:47:50.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107084801.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:48:01.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107085132.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:51:32.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107085245.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T08:52:45.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107085324.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:53:24.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107085328.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T08:53:28.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107085939.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T08:59:39.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107090038.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T09:00:38.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107090229.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T09:02:29.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107090255.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T09:02:55.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107090325.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T09:03:25.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107090529.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T09:05:29.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107090756.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T09:07:56.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107091022.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T09:10:22.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107091221.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T09:12:21.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107091358.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T09:13:58.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107091548.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T09:15:48.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107091655.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T09:16:55.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107091951.433557
+AvailableMBytes=620
+CommittedBytes=959897600
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+
+","2015-01-07T09:19:51.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107092121.433557
+AvailableMBytes=0
+CommittedBytes=1610014720
+PagesPersec=0
+PercentCommittedBytesInUse=27
+wmi_type=Memory
+","2015-01-07T09:21:21.433-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","20150107092216.155273
+TotalPhysicalMemory=8589402112
+wmi_type=ComputerSystem
+","2015-01-07T09:22:16.155-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 09:22:53.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T09:22:53.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 09:23:22.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T09:23:22.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=0
+
+01/07/2015 09:24:16.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=1102970880
+","2015-01-07T09:24:16.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 09:24:59.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T09:24:59.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 09:25:17.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T09:25:17.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 09:25:29.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 09:25:29.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T09:25:29.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 09:26:18.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T09:26:18.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","01/07/2015 09:26:29.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T09:26:29.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 09:26:40.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 09:26:40.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T09:26:40.498-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Memory","Perfmon:Memory","counter=""Available MBytes""
+Value=432
+
+01/07/2015 09:27:13.498
+collection=""Available Memory""
+object=Memory
+counter=""Committed Bytes""
+Value=649986048
+
+01/07/2015 09:27:13.498
+collection=""Available Memory""
+object=Memory
+","2015-01-07T09:27:13.498-0800"

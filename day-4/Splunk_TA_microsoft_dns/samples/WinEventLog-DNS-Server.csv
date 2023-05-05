@@ -1,0 +1,76 @@
+index,host,source,sourcetype,"_raw","_time"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DNS Server","WinEventLog:DNS-Server","12/29/2014 03:53:00 PM
+LogName=DNS Server
+SourceName=Microsoft-Windows-DNS-Server-Service
+EventCode=2631
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=1
+Keywords=Classic
+Message=The DNS server successfully autoconfigured: 
+	DNS server root hints 
+	DNS server forwarders 
+	DNS resolver","2014-12-29T15:53:00.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DNS Server","WinEventLog:DNS-Server","12/29/2014 03:53:00 PM
+LogName=DNS Server
+SourceName=Microsoft-Windows-DNS-Server-Service
+EventCode=3150
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=None
+OpCode=None
+RecordNumber=3
+Keywords=Classic
+Message=The DNS server wrote version 1 of zone _msdcs.spl.com to file _msdcs.spl.com.dns.","2014-12-29T15:53:00.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DNS Server","WinEventLog:DNS-Server","12/29/2014 03:54:01 PM
+LogName=DNS Server
+SourceName=Microsoft-Windows-DNS-Server-Service
+EventCode=4013
+EventType=3
+Type=Warning
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=4
+Keywords=Classic
+Message=The DNS server is waiting for Active Directory Domain Services (AD DS) to signal that the initial synchronization of the directory has been completed. The DNS server service cannot start until the initial synchronization is complete because critical DNS data might not yet be replicated onto this domain controller. If events in the AD DS event log indicate that there is a problem with DNS name resolution, consider adding the IP address of another DNS server for this domain to the DNS server list in the Internet Protocol properties of this computer. This event will be logged every two minutes until AD DS has signaled that the initial synchronization has successfully completed.","2014-12-29T15:54:01.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DNS Server","WinEventLog:DNS-Server","12/29/2014 03:54:19 PM
+LogName=DNS Server
+SourceName=Microsoft-Windows-DNS-Server-Service
+EventCode=4
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=5
+Keywords=Classic
+Message=The DNS server has finished the background loading and signing of zones. All zones are now available for DNS updates and zone transfers, as allowed by their individual zone configuration.","2014-12-29T15:54:19.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DNS Server","WinEventLog:DNS-Server","12/29/2014 03:54:19 PM
+LogName=DNS Server
+SourceName=Microsoft-Windows-DNS-Server-Service
+EventCode=2
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=6
+Keywords=Classic
+Message=The DNS server has started.","2014-12-29T15:54:19.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:DNS Server","WinEventLog:DNS-Server","12/29/2014 03:56:22 PM
+LogName=DNS Server
+SourceName=Microsoft-Windows-DNS-Server-Service
+EventCode=4500
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=None
+OpCode=None
+RecordNumber=8
+Keywords=Classic
+Message=The DNS Application Directory Partition ForestDnsZones.spl.com was created. The distinguished name of the root of this Directory Partition is DC=ForestDnsZones,DC=spl,DC=com.","2014-12-29T15:56:22.000-0800"

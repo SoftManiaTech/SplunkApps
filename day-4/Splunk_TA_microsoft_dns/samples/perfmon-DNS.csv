@@ -1,0 +1,163 @@
+index,host,source,sourcetype,"_raw","_time"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/05/2015 10:04:11.973 -0800
+collection=DNS
+object=DNS
+counter=""TCP Message Memory""
+instance=0
+Value=39176","2015-01-05T10:04:11.973-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/06/2015 08:43:05.895 -0800
+collection=DNS
+object=DNS
+counter=""Recursive TimeOut/sec""
+instance=0
+Value=0.29964112581643221","2015-01-06T08:43:05.895-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/07/2015 16:27:55.902 -0800
+collection=DNS
+object=DNS
+counter=""TCP Query Received/sec""
+instance=0
+Value=0.099991627701012595","2015-01-07T16:27:55.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/07/2015 16:27:55.902 -0800
+collection=DNS
+object=DNS
+counter=""TCP Response Sent/sec""
+instance=0
+Value=0.099991627701012595","2015-01-07T16:27:55.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/07/2015 16:27:55.902 -0800
+collection=DNS
+object=DNS
+counter=""Secure Update Received/sec""
+instance=0
+Value=0.099991627701012595","2015-01-07T16:27:55.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 13:58:05.911 -0800
+collection=DNS
+object=DNS
+counter=""Dynamic Update Received/sec""
+instance=0
+Value=2.600470347071675","2015-01-08T13:58:05.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 13:58:05.911 -0800
+collection=DNS
+object=DNS
+counter=""Dynamic Update NoOperation/sec""
+instance=0
+Value=2.4004341665276998","2015-01-08T13:58:05.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 13:58:05.911 -0800
+collection=DNS
+object=DNS
+counter=""Dynamic Update Written to Database/sec""
+instance=0
+Value=0.20003618054397498","2015-01-08T13:58:05.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:09:45.907 -0800
+collection=DNS
+object=DNS
+counter=""Total Query Received/sec""
+instance=0
+Value=0.19992759821958075","2015-01-08T14:09:45.907-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:09:45.907 -0800
+collection=DNS
+object=DNS
+counter=""UDP Query Received/sec""
+instance=0
+Value=0.19992759821958075","2015-01-08T14:09:45.907-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:09:45.907 -0800
+collection=DNS
+object=DNS
+counter=""Total Response Sent/sec""
+instance=0
+Value=0.19992759821958075","2015-01-08T14:09:45.907-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:09:45.907 -0800
+collection=DNS
+object=DNS
+counter=""UDP Response Sent/sec""
+instance=0
+Value=0.19992759821958075","2015-01-08T14:09:45.907-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:09:45.907 -0800
+collection=DNS
+object=DNS
+counter=""Recursive Queries/sec""
+instance=0
+Value=0.099963799109790377","2015-01-08T14:09:45.907-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Total Query Received""
+instance=0
+Value=17703","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""UDP Query Received""
+instance=0
+Value=17664","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""TCP Query Received""
+instance=0
+Value=39","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Total Response Sent""
+instance=0
+Value=17693","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""UDP Response Sent""
+instance=0
+Value=17654","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""TCP Response Sent""
+instance=0
+Value=39","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Recursive Queries""
+instance=0
+Value=1034","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Recursive Send TimeOuts""
+instance=0
+Value=4","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Dynamic Update Received""
+instance=0
+Value=6628","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Dynamic Update NoOperation""
+instance=0
+Value=6014","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Dynamic Update Written to Database""
+instance=0
+Value=614","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Dynamic Update Rejected""
+instance=0
+Value=40","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Secure Update Received""
+instance=0
+Value=40","2015-01-08T14:10:45.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:DNS","Perfmon:DNS","01/08/2015 14:10:45.908 -0800
+collection=DNS
+object=DNS
+counter=""Database Node Memory""
+instance=0
+Value=11712","2015-01-08T14:10:45.908-0800"

@@ -1,0 +1,601 @@
+index,host,source,sourcetype,"_raw","_time"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=0
+Value=67.621733062522324","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=0
+Value=13.80635534591949","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=0
+Value=53.815377716602839","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=0
+Value=52.971034378980889","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=0
+Value=222.87812578325921","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=1
+Value=29.278552056381123","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=1
+Value=28.413473566751957","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=1
+Value=0.93670791978303147","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=1
+Value=421.76936807414972","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=1
+Value=2.3986883492368705","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=1
+Value=68.450316412441637","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=1
+Value=10.044048752374991","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=1
+Value=58.406267660066646","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=1
+Value=34.980871759704364","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=1
+Value=178.70228201814686","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=2
+Value=53.00848602421793","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=2
+Value=52.143407534588746","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=2
+Value=0.93670791978303147","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=2
+Value=323.32320040755314","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=2
+Value=5.2971034378980892","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=2
+Value=45.186218533607978","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=2
+Value=19.985201513600099","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=2
+Value=25.201017020007882","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=2
+Value=87.452179399260899","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=2
+Value=79.756387612125948","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=3
+Value=53.476839984109439","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=3
+Value=50.738345654914205","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=3
+Value=2.8101237593490946","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=3
+Value=305.03320174462203","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=3
+Value=7.1960650477106114","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=3
+Value=43.503773209374152","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=3
+Value=23.701992595061615","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=3
+Value=19.801780614312538","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=3
+Value=83.054584092326635","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=3
+Value=72.56032256441533","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=_Total
+Value=41.299637026930029","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=_Total
+Value=39.88814558409409","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=_Total
+Value=1.4831208729897998","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=_Total
+Value=1626.7104821741377","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=_Total
+Value=85.85305383310299","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""DPC Rate""
+instance=_Total
+Value=1","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=_Total
+Value=56.19051030448653","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=_Total
+Value=16.884399551739047","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=_Total
+Value=39.306110752747472","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=_Total
+Value=258.45866963027277","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:45.911 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=_Total
+Value=553.89711797794735","2015-01-06T16:07:45.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=0
+Value=34.914622303244947","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=0
+Value=33.168509787769402","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=0
+Value=1.7210075833276575","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=0
+Value=823.56220066152093","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% DPC Time""
+instance=0
+Value=0.31291046969593778","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=0
+Value=143.26738501661032","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""DPC Rate""
+instance=0
+Value=3","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=0
+Value=60.557508128012159","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=0
+Value=17.873095569305907","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=0
+Value=42.684412558706256","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=0
+Value=112.03089017022148","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=0
+Value=282.22974029477604","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=1
+Value=31.159696666893698","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=1
+Value=29.570039386266117","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=1
+Value=1.5645523484796888","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=1
+Value=620.82533507197809","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=1
+Value=4.204912767783112","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=1
+Value=61.47471430072541","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=1
+Value=12.921011524497604","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=1
+Value=48.553702776227802","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=1
+Value=94.910888187104533","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=1
+Value=233.87324346527024","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=2
+Value=50.873056257737773","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=2
+Value=48.814033272566284","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=2
+Value=2.0339180530235956","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=2
+Value=489.37175259342501","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=2
+Value=6.9080709756436844","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=2
+Value=46.665294600150588","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=2
+Value=18.364897705512139","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=2
+Value=28.300396894638446","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=2
+Value=118.63861023388066","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=2
+Value=149.57475416828498","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=3
+Value=61.981377931943562","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=3
+Value=58.514257833140363","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=3
+Value=3.4420151666553149","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=3
+Value=402.77057297122525","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=3
+Value=11.813802538057315","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=3
+Value=35.490470689641256","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=3
+Value=21.128300682268986","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=3
+Value=14.362170007372271","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=3
+Value=115.23463323138957","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=3
+Value=82.095915942432185","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Processor Time""
+instance=_Total
+Value=44.732187789298251","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% User Time""
+instance=_Total
+Value=42.516710570592295","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Privileged Time""
+instance=_Total
+Value=2.190373287871564","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=Interrupts/sec
+instance=_Total
+Value=2336.5298612981492","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% DPC Time""
+instance=_Total
+Value=0.078227617423984444","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""DPCs Queued/sec""
+instance=_Total
+Value=166.19417129809443","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""DPC Rate""
+instance=_Total
+Value=3","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% Idle Time""
+instance=_Total
+Value=51.046996428975596","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C1 Time""
+instance=_Total
+Value=17.571826370396156","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""% C2 Time""
+instance=_Total
+Value=33.475170058579444","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C1 Transitions/sec""
+instance=_Total
+Value=440.81502182259624","2015-01-06T16:07:55.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Processor","Perfmon:Processor","01/06/2015 16:07:55.898 -0800
+collection=Processor
+object=Processor
+counter=""C2 Transitions/sec""
+instance=_Total
+Value=747.77365387076338","2015-01-06T16:07:55.898-0800"

@@ -1,0 +1,5 @@
+Splunk_TA_vcenter version = 4.2.1
+
+For documentation, see: https://docs.splunk.com/Documentation/AddOns/released/VMWvcenterlogs/About
+    
+Copyright (C) 2005-2021 Splunk Inc. All Rights Reserved.

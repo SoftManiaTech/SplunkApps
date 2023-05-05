@@ -1,0 +1,106 @@
+<form version="1.1">
+ <label>ldapfetch</label>
+ <description></description>  
+ <row>
+   <panel>
+     <html><div style="max-width: 860px;">
+<h1>The ldapfetch command</h1>
+<p>
+  The ldapfetch command filters and augments events with information from Active Directory. It follows a <b>search</b>
+  or similar command in the search pipeline so you can feed it events. A sample usage follows:
+</p>
+<pre>
+| ldapsearch search="(objectClass=group)" attrs="memberOf"
+  | mvexpand memberOf
+  | ldapfetch dn=memberOf attrs="cn,description"
+</pre>
+<p>
+  On return, ldapfetch adds the LDAP attributes specified by the <b>attrs</b> argument to each event based on an LDAP
+  fetch operation. It uses the <b>dn</b> field to determine the LDAP record to fetch.
+</p>
+<h2>Options</h2>
+<!-- dn -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>dn=</b><i>&lt;field-name&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies the name of the field that holds the Distinguished Name (DN) to fetch. If you do not specify the <b>dn</b>
+  option, then the command uses the <b>distinguishedName</b> field name.
+</p>
+<!-- attrs -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>attrs=</b><i>&lt;attribute-names&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  A comma-separated list of attribute names. If you specify '*' or do not specify any attributes, the command returns
+  all user attributes. If you specify '+', it returns all operational attributes.
+</p>
+<!-- domain -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>domain=</b><i>&lt;domain-specifier&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies the name of a configuration stanza in ldap.conf. If you do not specify a domain, the command uses the
+  default stanza.
+</p>
+<!-- debug -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>debug=</b><i>&lt;bool&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  If set to true, debug logging is in effect. This is a short-hand for <b>logging_level=DEBUG</b>.
+</p>
+<!-- decode -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>decode=</b><i>&lt;bool&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  If set to true, Active Directory formatting rules are applied to attributes. The default is the value of decode as
+  specified in the configuration stanza for domain.
+</p>
+<!-- logging_level -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>logging_level=</b><b>Critical</b>|<b>error</b>|<b>warning</b>|<b>info</b>|<b>debug</b></p>
+<p style="margin-bottom: 2px; margin-left: 45px; margin-top: 2px;">
+  Specifies the logging level for the $SPLUNK_HOME/var/log/splunk/SA-ldapsearch.log file. Splunk can access this file
+  with the "index=_internal sourcetype=SA-ldapsearch" search and exposes the following fields:
+  <table cellpadding="2" style="margin-left: 43px; margin-top: 2px">
+    <tr>
+      <td><b>File</b></td>
+      <td>Full pathname of the source file where the logging call was made.</td>
+    </tr>
+    <tr>
+      <td><b>Level</b></td>
+      <td>
+        Level of the logging call that was made; one of <b>critical</b>, <b>error</b>, <b>warning</b>,
+        <b>info</b>, or <b>debug</b>.
+      </td>
+    </tr>
+    <tr>
+      <td><b>Line</b></td>
+      <td>Line number in the source file where the logging call was made.</td>
+    </tr>
+    <tr>
+      <td><b>Pid</b></td>
+      <td>ID of the process that made the logging call.</td>
+    </tr>
+    <tr>
+      <td><b>log_source</b></td>
+      <td>
+        String of the form "<b>Pid=</b><i>&lt;Pid&gt;</i><b>, File=</b><i>&lt;File&gt;</i><b>,
+        Line=</b><i>&lt;Line&gt;</i>".
+      </td>
+    </tr>
+    <tr>
+      <td><b>message</b></td>
+      <td>Full text of the logged message.</td>
+    </tr>
+  </table>
+</p>
+<h2>Examples</h2>
+<p>
+  To list all organizational units, together with any Group Policy Objects (GPOs) linked to them:
+</p>
+<pre>
+| ldapsearch search="(objectClass=organizationalUnit)" attrs="ou,description,gPLink,gPOptions"
+  | sort ou
+  | rex field=gPLink max_match=10 "\[LDAP://(?&lt;gpo&gt;[^;]+);\d+\]"
+  | makemv allowempty=true tokenizer="([^\n]+)" gpo
+  | ldapfetch dn=gpo attrs=displayName
+  | table ou,description,displayName
+  | rename ou as "Name", displayName as "Linked GPO"
+</pre></div>
+</html>
+   </panel>
+ </row>
+</form>
+

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "2.0.0",
+  "info": {
+    "title": "Add-on for VMware ESXi Logs",
+    "id": {
+      "group": null,
+      "name": "Splunk_TA_esxilogs",
+      "version": "4.2.1"
+    },
+    "author": [
+      {
+        "name": "Splunk, Inc.",
+        "email": "support@splunk.com",
+        "company": "Splunk, Inc."
+      }
+    ],
+    "releaseDate": null,
+    "description": "Tools, Inputs, and extractions for VMware ESXi Log data received by syslog",
+    "classification": {
+      "intendedAudience": null,
+      "categories": ["IT Operations"],
+      "developmentStatus": null
+    },
+    "commonInformationModels": null,
+    "license": {
+      "name": "Splunk Software License Agreement",
+      "text": "license-eula.txt",
+      "uri": "https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html"
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseNotes": {
+      "name": "README",
+      "text": "README",
+      "uri": "https://docs.splunk.com/Documentation/AddOns/released/VMWesxilogs/ReleaseNotes"
+    }
+  },
+  "dependencies": null,
+  "tasks": null,
+  "inputGroups": null,
+  "incompatibleApps": null,
+  "platformRequirements": null,
+  "supportedDeployments": [
+    "_standalone",
+    "_distributed",
+    "_search_head_clustering"
+  ],
+  "targetWorkloads": "*"
+}

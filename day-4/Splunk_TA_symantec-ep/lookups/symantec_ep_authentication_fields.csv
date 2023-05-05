@@ -1,0 +1,4 @@
+description,action,reason
+The administrator's user name or password is incorrect. Type a valid user name or password.,failure,failure
+Administrator log on succeeded,success,success
+Administrator log on failed,failure,failure

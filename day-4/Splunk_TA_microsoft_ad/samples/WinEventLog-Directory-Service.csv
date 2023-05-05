@@ -1,0 +1,1009 @@
+index,host,source,sourcetype,"_raw","_time"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:43 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=102
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=Knowledge Consistency Checker
+OpCode=Info
+RecordNumber=1
+Keywords=Classic
+Message=NTDS (592) NTDSA: The database engine (6.03.9600.0000) is starting a new instance (0).","2014-12-29T15:52:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:43 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1539
+EventType=3
+Type=Warning
+ComputerName=WIN-6LR3JNJ6LVD
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Service Control
+OpCode=None
+RecordNumber=2
+Keywords=Classic
+Message=Active Directory Domain Services could not disable the software-based disk write cache on the following hard disk. 
+ 
+Hard disk:
+c: 
+ 
+Data might be lost during system failures.","2014-12-29T15:52:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:43 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=105
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=Knowledge Consistency Checker
+OpCode=Info
+RecordNumber=3
+Keywords=Classic
+Message=NTDS (592) NTDSA: The database engine started a new instance (0). (Time=0 seconds) 
+ 
+Internal Timing Sequence: [1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.000, [7] 0.032, [8] 0.000, [9] 0.000, [10] 0.000.","2014-12-29T15:52:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:43 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=326
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=Knowledge Consistency Checker
+OpCode=Info
+RecordNumber=4
+Keywords=Classic
+Message=NTDS (592) NTDSA: The database engine attached a database (1, C:\Windows\NTDS\ntds.dit). (Time=0 seconds) 
+ 
+Internal Timing Sequence: [1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000. 
+Saved Cache: 1 0","2014-12-29T15:52:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:43 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2041
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=Internal Processing
+OpCode=None
+RecordNumber=5
+Keywords=Classic
+Message=Duplicate event log entries were suppressed. 
+ 
+See the previous event log entry for details. An entry is considered a duplicate if the event code and all of its insertion parameters are identical. The time period for this run of duplicates is from the time of the previous event to the time of this event. 
+ 
+Event Code:
+80000603 
+Number of duplicate entries: 
+2","2014-12-29T15:52:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:43 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2120
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=6
+Keywords=Classic
+Message=This Active Directory Domain Services server does not support the Recycle Bin. Deleted objects may be undeleted, however, when an object is undeleted, some attributes of that object may be lost.  Additionally, attributes of other objects that refer to the object being undeleted may also be lost.","2014-12-29T15:52:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:43 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2405
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=7
+Keywords=Classic
+Message=This Active Directory Domain Services server does not support the ""Recycle Bin Feature"" optional feature.","2014-12-29T15:52:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:50 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=8
+Keywords=Classic
+Message=NTDS (592) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2014-12-29T15:52:50.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:50 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=9
+Keywords=Classic
+Message=NTDS (592) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 4 pages. This pass started on 12/29/2014 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 1 times.","2014-12-29T15:52:50.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:50 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1898
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=DS Schema
+OpCode=None
+RecordNumber=11
+Keywords=Classic
+Message=Internal event: The following schema object was modified. 
+ 
+Schema object: 
+CN=domain-dns,CN=Schema,CN=Configuration,DC=spl,DC=com","2014-12-29T15:52:50.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:50 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1898
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=DS Schema
+OpCode=None
+RecordNumber=12
+Keywords=Classic
+Message=Internal event: The following schema object was modified. 
+ 
+Schema object: 
+CN=sam-domain,CN=Schema,CN=Configuration,DC=spl,DC=com","2014-12-29T15:52:50.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:50 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1000
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Service Control
+OpCode=None
+RecordNumber=13
+Keywords=Classic
+Message=Microsoft Active Directory Domain Services startup complete, version 6.3.9600.16517","2014-12-29T15:52:50.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:50 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2064
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Processing
+OpCode=None
+RecordNumber=14
+Keywords=Classic
+Message=Active Directory Domain Services has detected that the quota-tracking table is either missing or not completely built. The table will be rebuilt in the background (resuming the progress of any previous rebuild, if possible). Until it has completed, quota enforcement will not be in effect.","2014-12-29T15:52:50.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:51 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=103
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=Knowledge Consistency Checker
+OpCode=Info
+RecordNumber=10
+Keywords=Classic
+Message=NTDS (592) NTDSA: The database engine stopped the instance (0). 
+ 
+Dirty Shutdown: 0 
+ 
+Internal Timing Sequence: [1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.032, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000, [13] 0.000, [14] 0.000, [15] 0.000.","2014-12-29T15:52:51.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:52:51 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1004
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD
+TaskCategory=Service Control
+OpCode=None
+RecordNumber=15
+Keywords=Classic
+Message=Active Directory Domain Services was shut down successfully.","2014-12-29T15:52:51.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:37 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1539
+EventType=3
+Type=Warning
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Service Control
+OpCode=None
+RecordNumber=16
+Keywords=Classic
+Message=Active Directory Domain Services could not disable the software-based disk write cache on the following hard disk. 
+ 
+Hard disk:
+c: 
+ 
+Data might be lost during system failures.","2014-12-29T15:53:37.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:37 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2041
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Internal Processing
+OpCode=None
+RecordNumber=17
+Keywords=Classic
+Message=Duplicate event log entries were suppressed. 
+ 
+See the previous event log entry for details. An entry is considered a duplicate if the event code and all of its insertion parameters are identical. The time period for this run of duplicates is from the time of the previous event to the time of this event. 
+ 
+Event Code:
+80000603 
+Number of duplicate entries: 
+2","2014-12-29T15:53:37.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:37 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2064
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Processing
+OpCode=None
+RecordNumber=18
+Keywords=Classic
+Message=Active Directory Domain Services has detected that the quota-tracking table is either missing or not completely built. The table will be rebuilt in the background (resuming the progress of any previous rebuild, if possible). Until it has completed, quota enforcement will not be in effect.","2014-12-29T15:53:37.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:38 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2121
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=19
+Keywords=Classic
+Message=This Active Directory Domain Services server is disabling the Recycle Bin. Deleted objects may not be undeleted at this time.","2014-12-29T15:53:38.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:38 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2406
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=20
+Keywords=Classic
+Message=This Active Directory Domain Services server is disabling support for the ""Recycle Bin Feature"" optional feature.","2014-12-29T15:53:38.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:39 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2168
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=21
+Keywords=Classic
+Message=The DC is running on a supported hypervisor. VM Generation ID is detected. 
+ 
+Current value of VM Generation ID: 5533704087260275549","2014-12-29T15:53:39.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:39 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2172
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=22
+Keywords=Classic
+Message=Read the msDS-GenerationId attribute of the Domain Controller's computer object. 
+ 
+msDS-GenerationId attribute value:
+0","2014-12-29T15:53:39.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:39 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2170
+EventType=3
+Type=Warning
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=23
+Keywords=Classic
+Message=A Generation ID change has been detected. 
+ 
+Generation ID cached in DS (old value):
+0 
+Generation ID currently in VM (new value):
+5533704087260275549 
+ 
+The Generation ID change occurs after the application of a virtual machine snapshot, after a virtual machine import operation or after a live migration operation. Active Directory Domain Services will create a new invocation ID to recover the domain controller. Virtualized domain controllers should not be restored using virtual machine snapshots. The supported method to restore or rollback the content of an Active Directory Domain Services database is to restore a system state backup made with an Active Directory Domain Services aware backup application.","2014-12-29T15:53:39.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:39 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1168
+EventType=2
+Type=Error
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Processing
+OpCode=None
+RecordNumber=24
+Keywords=Classic
+Message=Internal error: An Active Directory Domain Services error has occurred. 
+ 
+Additional Data 
+Error value (decimal):
+87 
+Error value (hex):
+57 
+Internal ID:
+30d123f","2014-12-29T15:53:39.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:39 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2167
+EventType=2
+Type=Error
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=25
+Keywords=Classic
+Message=Active Directory Domain Services could not initialize virtual domain controller knowledge. See previous event log entry for details. 
+ 
+Additional Data 
+Failure code:
+87","2014-12-29T15:53:39.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:39 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2120
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=26
+Keywords=Classic
+Message=This Active Directory Domain Services server does not support the Recycle Bin. Deleted objects may be undeleted, however, when an object is undeleted, some attributes of that object may be lost.  Additionally, attributes of other objects that refer to the object being undeleted may also be lost.","2014-12-29T15:53:39.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:39 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2405
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Configuration
+OpCode=None
+RecordNumber=27
+Keywords=Classic
+Message=This Active Directory Domain Services server does not support the ""Recycle Bin Feature"" optional feature.","2014-12-29T15:53:39.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:49 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2886
+EventType=3
+Type=Warning
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=LDAP Interface
+OpCode=None
+RecordNumber=28
+Keywords=Classic
+Message=The security of this directory server can be significantly enhanced by configuring the server to reject SASL (Negotiate, Kerberos, NTLM, or Digest) LDAP binds that do not request signing (integrity verification) and LDAP simple binds that are performed on a clear text (non-SSL/TLS-encrypted) connection.  Even if no clients are using such binds, configuring the server to reject them will improve the security of this server. 
+ 
+Some clients may currently be relying on unsigned SASL binds or LDAP simple binds over a non-SSL/TLS connection, and will stop working if this configuration change is made.  To assist in identifying these clients, if such binds occur this directory server will log a summary event once every 24 hours indicating how many such binds occurred.  You are encouraged to configure those clients to not use such binds.  Once no such events are observed for an extended period, it is recommended that you configure the server to reject such binds. 
+ 
+For more details and information on how to make this configuration change to the server, please see http://go.microsoft.com/fwlink/?LinkID=87923. 
+ 
+You can enable additional logging to log an event each time a client makes such a bind, including information on which client made the bind.  To do so, please raise the setting for the ""LDAP Interface Events"" event logging category to level 2 or higher.","2014-12-29T15:53:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:53:49 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1000
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Service Control
+OpCode=None
+RecordNumber=29
+Keywords=Classic
+Message=Microsoft Active Directory Domain Services startup complete, version 6.3.9600.16517","2014-12-29T15:53:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:54:19 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1394
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Service Control
+OpCode=None
+RecordNumber=30
+Keywords=Classic
+Message=All problems preventing updates to the Active Directory Domain Services database have been cleared. New updates to the Active Directory Domain Services database are succeeding. The Net Logon service has restarted.","2014-12-29T15:54:19.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:54:23 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1844
+EventType=3
+Type=Warning
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=Name Resolution
+OpCode=None
+RecordNumber=31
+Keywords=Classic
+Message=The local domain controller could not connect with the following domain controller hosting the following directory partition to resolve distinguished names. 
+ 
+Domain controller:
+ 
+Directory partition:
+spl.com 
+ 
+Additional Data 
+Error value:
+1355 The specified domain either does not exist or could not be contacted. 
+Internal ID:
+32013c0","2014-12-29T15:54:23.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:55:49 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=2065
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Processing
+OpCode=None
+RecordNumber=32
+Keywords=Classic
+Message=Active Directory Domain Services has completed rebuilding the quota-tracking table.  Quota enforcement is now in effect.","2014-12-29T15:55:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 03:56:23 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1404
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Knowledge Consistency Checker
+OpCode=None
+RecordNumber=33
+Keywords=Classic
+Message=This directory service is now the intersite topology generator and has assumed responsibility for generating and maintaining intersite replication topologies for this site.","2014-12-29T15:56:23.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 04:08:49 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=102
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Knowledge Consistency Checker
+OpCode=Info
+RecordNumber=34
+Keywords=Classic
+Message=NTDS (596) NTDSA: The database engine (6.03.9600.0000) is starting a new instance (0).","2014-12-29T16:08:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 04:08:49 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=105
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Knowledge Consistency Checker
+OpCode=Info
+RecordNumber=35
+Keywords=Classic
+Message=NTDS (596) NTDSA: The database engine started a new instance (0). (Time=0 seconds) 
+ 
+Internal Timing Sequence: [1] 0.015, [2] 0.000, [3] 0.000, [4] 0.032, [5] 0.000, [6] 0.000, [7] 0.031, [8] 0.000, [9] 0.000, [10] 0.000.","2014-12-29T16:08:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 04:08:49 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=326
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Knowledge Consistency Checker
+OpCode=Info
+RecordNumber=36
+Keywords=Classic
+Message=NTDS (596) NTDSA: The database engine attached a database (1, C:\Windows\NTDS\ntds.dit). (Time=0 seconds) 
+ 
+Internal Timing Sequence: [1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000. 
+Saved Cache: 1 0","2014-12-29T16:08:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 04:08:49 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=37
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2014-12-29T16:08:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 04:08:49 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=38
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 4 pages. This pass started on 12/29/2014 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 2 times.","2014-12-29T16:08:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/29/2014 04:08:49 PM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1869
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Global Catalog
+OpCode=None
+RecordNumber=39
+Keywords=Classic
+Message=Active Directory Domain Services has located a global catalog in the following site. 
+ 
+Global catalog:
+\\WIN-6LR3JNJ6LVD.spl.com 
+Site:
+Default-First-Site-Name","2014-12-29T16:08:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/30/2014 03:53:49 AM
+LogName=Directory Service
+SourceName=Microsoft-Windows-ActiveDirectory_DomainService
+EventCode=1162
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+User=NOT_TRANSLATED
+Sid=S-1-5-7
+SidType=0
+TaskCategory=Internal Processing
+OpCode=None
+RecordNumber=40
+Keywords=Classic
+Message=Internal event: The Address Book hierarchy table has been rebuilt.","2014-12-30T03:53:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/30/2014 04:08:49 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=41
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2014-12-30T04:08:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/30/2014 04:08:49 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=42
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 1 pages. This pass started on 12/30/2014 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 3 times.","2014-12-30T04:08:49.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/30/2014 04:08:48 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=43
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2014-12-30T16:08:48.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/30/2014 04:08:48 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=44
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 12/30/2014 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 4 times.","2014-12-30T16:08:48.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/31/2014 04:08:47 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=45
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2014-12-31T04:08:47.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/31/2014 04:08:47 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=46
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 12/31/2014 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 5 times.","2014-12-31T04:08:47.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/31/2014 04:08:46 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=47
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2014-12-31T16:08:46.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","12/31/2014 04:08:46 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=48
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 12/31/2014 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 6 times.","2014-12-31T16:08:46.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/01/2015 04:08:46 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=49
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-01T04:08:46.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/01/2015 04:08:46 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=50
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/1/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 7 times.","2015-01-01T04:08:46.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/01/2015 04:08:45 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=51
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-01T16:08:45.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/01/2015 04:08:45 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=52
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/1/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 8 times.","2015-01-01T16:08:45.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/02/2015 04:08:44 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=53
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-02T04:08:44.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/02/2015 04:08:44 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=54
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/2/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 9 times.","2015-01-02T04:08:44.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/02/2015 04:08:43 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=55
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-02T16:08:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/02/2015 04:08:43 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=56
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/2/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 10 times.","2015-01-02T16:08:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/03/2015 04:08:43 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=57
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-03T04:08:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/03/2015 04:08:43 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=58
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/3/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 11 times.","2015-01-03T04:08:43.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/03/2015 04:08:42 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=59
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-03T16:08:42.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/03/2015 04:08:42 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=60
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/3/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 12 times.","2015-01-03T16:08:42.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/04/2015 04:08:41 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=61
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-04T04:08:41.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/04/2015 04:08:41 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=62
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/4/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 13 times.","2015-01-04T04:08:41.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/04/2015 04:08:40 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=63
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-04T16:08:40.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/04/2015 04:08:40 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=64
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/4/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 14 times.","2015-01-04T16:08:40.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/05/2015 04:08:40 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=65
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-05T04:08:40.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/05/2015 04:08:40 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=66
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/5/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 15 times.","2015-01-05T04:08:40.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/05/2015 04:19:52 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=67
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-05T16:19:52.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/05/2015 04:19:52 PM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=68
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/5/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 16 times.","2015-01-05T16:19:52.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/06/2015 04:19:51 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=700
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=69
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation is beginning a full pass on database 'C:\Windows\NTDS\ntds.dit'.","2015-01-06T04:19:51.000-0800"
+wineventlog,"WIN-6LR3JNJ6LVD","WinEventLog:Directory Service","WinEventLog:Directory-Service","01/06/2015 04:19:51 AM
+LogName=Directory Service
+SourceName=NTDS ISAM
+EventCode=701
+EventType=4
+Type=Information
+ComputerName=WIN-6LR3JNJ6LVD.spl.com
+TaskCategory=Performance
+OpCode=Info
+RecordNumber=70
+Keywords=Classic
+Message=NTDS (596) NTDSA: Online defragmentation has completed a full pass on database 'C:\Windows\NTDS\ntds.dit', freeing 0 pages. This pass started on 1/6/2015 and ran for a total of 0 seconds, requiring 1 invocations over 1 days. Since the database was created it has been fully defragmented 17 times.","2015-01-06T04:19:51.000-0800"

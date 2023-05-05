@@ -1,0 +1,40 @@
+event_action,action
+changed,modified
+deleted,deleted
+edited,modified
+added,created
+created,created
+received,created
+imported,created
+backup succeeded and finished,created
+removed,deleted
+update,modified
+updated,modified
+applied,modified
+disabled,modified
+enabled,modified
+disconnected,modified
+loaded,modified
+logout,modified
+connected,modified
+deleted symantec license,modified
+added symantec license,modified
+downloaded and applied,modified
+switched,modified
+renamed,modified
+started,started
+initiated,started
+server started,started
+stopped,stopped
+finished,stopped
+shut down,stopped
+file submitted,read
+submitting file,read
+downloaded,read
+exported,read
+startup,started
+new *,created
+Created *,created
+is moved from,modified
+new firewall policy,created
+new,created

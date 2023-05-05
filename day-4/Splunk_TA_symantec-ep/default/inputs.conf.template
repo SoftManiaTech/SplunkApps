@@ -1,0 +1,36 @@
+
+[monitor://<<path_to_temp_dump_file_directory>>/scm_admin.tmp]
+sourcetype = symantec:ep:admin:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/agt_behavior.tmp]
+sourcetype = symantec:ep:behavior:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/scm_agent_act.tmp]
+sourcetype = symantec:ep:agent:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/scm_policy.tmp]
+sourcetype = symantec:ep:policy:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/scm_system.tmp]
+sourcetype = symantec:ep:scm_system:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/agt_packet.tmp]
+sourcetype = symantec:ep:packet:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/agt_proactive.tmp]
+sourcetype = symantec:ep:proactive:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/agt_risk.tmp]
+sourcetype = symantec:ep:risk:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/agt_scan.tmp]
+sourcetype = symantec:ep:scan:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/agt_security.tmp]
+sourcetype = symantec:ep:security:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/agt_system.tmp]
+sourcetype = symantec:ep:agt_system:file
+
+[monitor://<<path_to_temp_dump_file_directory>>/agt_traffic.tmp]
+sourcetype = symantec:ep:traffic:file

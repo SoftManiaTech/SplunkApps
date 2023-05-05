@@ -1,0 +1,121 @@
+<form version="1.1">
+ <label>ldapfilter</label>
+ <description></description>  
+ <row>
+   <panel>
+     <html>
+<div style="max-width: 860px;">
+<h1>The ldapfilter command</h1>
+<p>
+  The ldapfilter command joins each input event record with the results of an LDAP search. It follows a <b>search</b> or
+  similar command in the search pipeline. A sample usage follows:
+</p>
+<pre>
+eventtype=msad-successful-user-logons
+  | ldapfilter domain=$dest_nt_domain$ search="(objectClass=$src_user$)" attrs="telephoneNumber,displayName"
+</pre>
+<p>
+  On return, ldapfilter adds the LDAP attributes specified by the <b>attrs</b> argument to each output event record
+  based on an LDAP search. It uses the <b>domain</b> and <b>search</b> fields to determine the LDAP search to perform.
+  The values of the field names between dollar signs are expanded. For example, <b>$src_user$</b> is replaced by the
+  value of the <b>src_user</b> field. The command executes one LDAP search per input event record, generating one output
+  event record for each LDAP search result returned. If <i>n</i> LDAP search results are returned for an input event
+  record, <i>n</i> output event records will be generated.
+</p>
+<h2>Options</h2>
+<!-- search -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>search=</b><i>&lt;search-filter&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  An LDAP search filter. The filter must conform to the string representation for search filters as defined in
+  <a href="http://tools.ietf.org/html/rfc2254">RFC 2254</a>. This value is required.
+</p>
+<!-- attrs -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>attrs=</b><i>&lt;attribute-names&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies a comma-delimited list of attributes to return as fields.
+</p>
+<!-- domain -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>domain=</b><i>&lt;domain-specifier&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies the name of a configuration stanza in ldap.conf. If you do not specify a domain, the command uses the
+  default stanza.
+</p>
+<!-- basedn -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>basedn=</b><i>&lt;search-base&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies a search base as the starting point instead of the default as set in the ldap configuration stanza
+  identified by <b>domain</b>.
+</p>
+<!-- scope -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>scope=</b><b>base</b>|<b>one</b>|<b><u>sub</u></b></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies the scope of the search to be one of <b>base</b>, <b>one</b>, or <b>sub</b>. The default is <b>sub</b>.
+</p>
+<!-- debug -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>debug=</b><i>&lt;bool&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  If set to true, debug logging is in effect. This is a short-hand for <b>logging_level=DEBUG</b>.
+</p>
+<!-- decode -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>decode=</b><i>&lt;bool&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  If set to true, Active Directory formatting rules are applied to attributes. The default is the value of decode as
+  specified in the configuration stanza for domain.
+</p>
+<!-- logging_level -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>logging_level=</b><b>critical</b>|<b>error</b>|<b>warning</b>|<b>info</b>|<b>debug</b></p>
+<p style="margin-bottom: 2px; margin-left: 45px; margin-top: 2px;">
+  Specifies the logging level for the $SPLUNK_HOME/var/log/splunk/SA-ldapsearch.log file. Splunk can access this file
+  with the "index=_internal sourcetype=SA-ldapsearch" search and exposes the following fields:
+  <table cellpadding="2" style="margin-left: 43px; margin-top: 2px">
+    <tr>
+      <td><b>File</b></td>
+      <td>Full pathname of the source file where the logging call was made.</td>
+    </tr>
+    <tr>
+      <td><b>Level</b></td>
+      <td>
+        Level of the logging call that was made; one of <b>critical</b>, <b>error</b>, <b>warning</b>,
+        <b>info</b>, or <b>debug</b>.
+      </td>
+    </tr>
+    <tr>
+      <td><b>Line</b></td>
+      <td>Line number in the source file where the logging call was made.</td>
+    </tr>
+    <tr>
+      <td><b>Pid</b></td>
+      <td>ID of the process that made the logging call.</td>
+    </tr>
+    <tr>
+      <td><b>log_source</b></td>
+      <td>
+        String of the form "<b>Pid=</b><i>&lt;Pid&gt;</i><b>, File=</b><i>&lt;File&gt;</i><b>,
+        Line=</b><i>&lt;Line&gt;</i>".
+      </td>
+    </tr>
+    <tr>
+      <td><b>message</b></td>
+      <td>Full text of the logged message.</td>
+    </tr>
+  </table>
+</p>
+<h2>Example</h2>
+<p>
+  To return the display name and telephone number for all successful logons:
+</p>
+<pre>
+eventtype=msad-successful-user-logons
+  | stats count by src_user,dest_nt_domain
+  | ldapfilter domain=$dest_nt_domain$ search="(sAMAccountNAme=$src_user$)" attrs="telephoneNumber,displayName"
+  | table src_user,dest_nt_domain,displayName,telephoneNumber,count
+</pre>
+<p>
+  You will need to install the Splunk App for Windows Infrastructure to run the ldapfilter examples. This article
+  contains instructions: <a href="http://docs.splunk.com/Documentation/MSApp/latest/MSInfra/Releasenotes">Install
+  and Use the Splunk App for Windows Infrastructure</a>.
+</p></div>
+     </html>
+   </panel>
+ </row>
+</form>

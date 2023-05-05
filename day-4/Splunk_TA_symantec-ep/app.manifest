@@ -1,0 +1,67 @@
+{
+  "dependencies": null,
+  "incompatibleApps": null,
+  "info": {
+    "author": [
+      {
+        "name": "Splunk, Inc.",
+        "email": null,
+        "company": null
+      }
+    ],
+    "classification": {
+      "categories": [
+        "IT Operations",
+        "Security, Fraud & Compliance"
+      ],
+      "developmentStatus": "Production/Stable",
+      "intendedAudience": "IT Professionals"
+    },
+    "commonInformationModels": {
+      "Alerts": "==5.0.2",
+      "Authentication": "==5.0.2",
+      "Change": "==5.0.2",
+      "Intrusion Detection": "==5.0.2",
+      "Inventory": "==5.0.2",
+      "Malware": "==5.0.2",
+      "Network Traffic": "==5.0.2"
+    },
+    "description": "Splunk Add-on for Symantec Endpoint Protection",
+    "id": {
+      "group": null,
+      "name": "Splunk_TA_symantec-ep",
+      "version": "3.4.1"
+    },
+    "license": {
+      "name": "Splunk Software License Agreement",
+      "text": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+      "uri": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseDate": null,
+    "releaseNotes": {
+      "name": "README",
+      "text": "README.txt",
+      "uri": "https://docs.splunk.com/Documentation/AddOns/released/SymantecEP/Releasenotes"
+    },
+    "title": "Splunk Add-on for Symantec Endpoint Protection"
+  },
+  "inputGroups": null,
+  "platformRequirements": null,
+  "schemaVersion": "2.0.0",
+  "supportedDeployments": [
+    "_standalone",
+    "_distributed",
+    "_search_head_clustering"
+  ],
+  "targetWorkloads": [
+    "_search_heads",
+    "_indexers",
+    "_forwarders"
+  ],
+  "tasks": null
+}

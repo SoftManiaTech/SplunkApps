@@ -1,0 +1,325 @@
+index,host,source,sourcetype,"_raw","_time"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/06/2015 08:43:05.895 -0800
+collection=NTDS
+object=NTDS
+counter=""SAM Enumerations/sec""
+instance=0
+Value=0.29967345482647922","2015-01-06T08:43:05.895-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/07/2015 16:42:35.898 -0800
+collection=NTDS
+object=NTDS
+counter=""LDAP Writes/sec""
+instance=0
+Value=0.099989717057497818","2015-01-07T16:42:35.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 04:42:55.902 -0800
+collection=NTDS
+object=NTDS
+counter=""Tombstones Visited/sec""
+instance=0
+Value=0.19993737361646211","2015-01-08T04:42:55.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 04:57:55.911 -0800
+collection=NTDS
+object=NTDS
+counter=""Link Values Cleaned/sec""
+instance=0
+Value=0.099840647338003227","2015-01-08T04:57:55.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 06:06:35.911 -0800
+collection=NTDS
+object=NTDS
+counter=""ATQ Request Latency""
+instance=0
+Value=1","2015-01-08T06:06:35.911-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 07:54:25.909 -0800
+collection=NTDS
+object=NTDS
+counter=""SAM Universal Group Membership Evaluations/sec""
+instance=0
+Value=0.79868269270079395","2015-01-08T07:54:25.909-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 07:54:25.909 -0800
+collection=NTDS
+object=NTDS
+counter=""SAM Global Group Membership Evaluations/sec""
+instance=0
+Value=0.39934134635039698","2015-01-08T07:54:25.909-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 10:17:45.896 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Server Name Translations/sec""
+instance=0
+Value=0.10001909164421305","2015-01-08T10:17:45.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 11:35:05.904 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Threads in Use""
+instance=0
+Value=1","2015-01-08T11:35:05.904-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 11:35:05.904 -0800
+collection=NTDS
+object=NTDS
+counter=""LDAP Active Threads""
+instance=0
+Value=1","2015-01-08T11:35:05.904-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 11:35:05.904 -0800
+collection=NTDS
+object=NTDS
+counter=""ATQ Threads LDAP""
+instance=0
+Value=1","2015-01-08T11:35:05.904-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 11:43:05.897 -0800
+collection=NTDS
+object=NTDS
+counter=""LDAP Bind Time""
+instance=0
+Value=16","2015-01-08T11:43:05.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 12:42:55.900 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Security Descriptor sub-operations/sec""
+instance=0
+Value=0.099958433285102732","2015-01-08T12:42:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 12:42:55.900 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Directory Writes/sec""
+instance=0
+Value=0.099958433285102732","2015-01-08T12:42:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 12:42:55.900 -0800
+collection=NTDS
+object=NTDS
+counter=""SAM GC Evaluations/sec""
+instance=0
+Value=0.099958433285102732","2015-01-08T12:42:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 12:42:55.900 -0800
+collection=NTDS
+object=NTDS
+counter=""Database modifys/sec""
+instance=0
+Value=0.099958433285102732","2015-01-08T12:42:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:05.905 -0800
+collection=NTDS
+object=NTDS
+counter=""SAM Transitive Membership Evaluations/sec""
+instance=0
+Value=0.19990305901056343","2015-01-08T13:23:05.905-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:05.905 -0800
+collection=NTDS
+object=NTDS
+counter=""SAM Domain Local Group Membership Evaluations/sec""
+instance=0
+Value=0.19990305901056343","2015-01-08T13:23:05.905-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:05.905 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Client Binds/sec""
+instance=0
+Value=0.29985458851584512","2015-01-08T13:23:05.905-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:05.905 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Client Name Translations/sec""
+instance=0
+Value=0.19990305901056343","2015-01-08T13:23:05.905-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:05.905 -0800
+collection=NTDS
+object=NTDS
+counter=""Subtree searches/sec""
+instance=0
+Value=0.49975764752640855","2015-01-08T13:23:05.905-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:05.905 -0800
+collection=NTDS
+object=NTDS
+counter=""Onelevel searches/sec""
+instance=0
+Value=0.49975764752640855","2015-01-08T13:23:05.905-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""LDAP Client Sessions""
+instance=0
+Value=6","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""LDAP Searches/sec""
+instance=0
+Value=0.19980189043158039","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Monitor List Size""
+instance=0
+Value=23","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Search sub-operations/sec""
+instance=0
+Value=0.099900945215790196","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Name Cache hit rate""
+instance=0
+Value=100","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DRA Highest USN Issued (Low part)""
+instance=0
+Value=13754","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DRA Highest USN Committed (Low part)""
+instance=0
+Value=13754","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Writes from SAM""
+instance=0
+Value=31.824234354194409","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Writes from LDAP""
+instance=0
+Value=31.824234354194409","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Writes from LSA""
+instance=0
+Value=1.5978695073235687","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Writes from KCC""
+instance=0
+Value=0.26631158455392812","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Writes Other""
+instance=0
+Value=33.954727030625833","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Searches from SAM""
+instance=0
+Value=0.36251921748771537","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Searches from LDAP""
+instance=0
+Value=85.941663513366905","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Searches from LSA""
+instance=0
+Value=0.82426814779141133","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Searches from KCC""
+instance=0
+Value=1.7615258619092855","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Searches Other""
+instance=0
+Value=0.9213809600673174","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Directory Searches/sec""
+instance=0
+Value=0.099900945215790196","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Reads from SAM""
+instance=0
+Value=8.2577697791929126","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Reads from LSA""
+instance=0
+Value=11.123416626289195","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Reads from KCC""
+instance=0
+Value=65.795666920467923","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Reads Other""
+instance=0
+Value=14.823146674049974","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS Directory Reads/sec""
+instance=0
+Value=0.099900945215790196","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""LDAP Successful Binds/sec""
+instance=0
+Value=0.099900945215790196","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""ATQ Threads Total""
+instance=0
+Value=4","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""LDAP New Connections/sec""
+instance=0
+Value=0.099900945215790196","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""LDAP Closed Connections/sec""
+instance=0
+Value=0.099900945215790196","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Writes from NTDSAPI""
+instance=0
+Value=0.53262316910785623","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""DS % Searches from NTDSAPI""
+instance=0
+Value=10.188642299377367","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""Negotiated Binds/sec""
+instance=0
+Value=0.099900945215790196","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""Base searches/sec""
+instance=0
+Value=0.099900945215790196","2015-01-08T13:23:15.910-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:NTDS","Perfmon:NTDS","01/08/2015 13:23:15.910 -0800
+collection=NTDS
+object=NTDS
+counter=""Approximate highest DNT""
+instance=0
+Value=4106","2015-01-08T13:23:15.910-0800"

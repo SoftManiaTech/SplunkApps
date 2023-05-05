@@ -1,0 +1,37 @@
+<form version="1.1">
+ <label>Welcome</label>
+ <description></description>  
+ <row>
+   <panel>
+     <html>
+<h1>Welcome to the Splunk Supporting Add-on for Active Directory.</h1>
+<p>
+  This add-on is used for the following purposes:
+</p>
+<ul>
+  <li>To generate events based on the contents of an Active Directory</li>
+  <li>To augment events with information from an Active Directory</li>
+  <li>To perform Active Directory group expansions</li>
+</ul>
+<p>
+  This add-on must be configured before use. Click <a href="configuration">Configuration</a> to supply the required
+  settings.
+</p>
+<p>
+  The add-on has four commands. Once configured, all commands use the configuration. You can learn more about the
+  commands in the Reference section:
+</p>
+<ul>
+  <li>The <a href="ldapsearch">ldapsearch</a> command</li>
+  <li>The <a href="ldapfilter">ldapfilter</a> command</li>
+  <li>The <a href="ldapfetch">ldapfetch</a> command</li>
+  <li>The <a href="ldapgroup">ldapgroup</a> command</li>
+  <li>The <a href="ldaptestconnection">ldaptestconnection</a> command</li>
+</ul>
+<p>
+  Learn more about the Splunk Supporting Add-on for Active Directory <a href="http://goo.gl/8aOM0X">here</a>.
+</p>
+		</html>
+   </panel>
+ </row>
+</form>

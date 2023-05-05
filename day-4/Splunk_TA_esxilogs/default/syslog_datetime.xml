@@ -1,0 +1,135 @@
+<!-- Copyright (C) 2005-2021 Splunk Inc. All Rights Reserved. -->
+<!-- syslog_datetime.xml -->
+<!-- This file contains the general formulas for parsing date/time formats. -->
+
+<datetime>
+
+<define name="_year" extract="year">
+  <text><![CDATA[(20\d\d|19\d\d|[9012]\d(?!\d))]]></text>
+</define>
+
+<define name="_month" extract="month">
+  <text><![CDATA[(0?[1-9]|1[012])(?!:)]]></text>
+</define>
+
+<define name="_litmonth"  extract="litmonth">
+   <text><![CDATA[(?<![\d\w])(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z,\.;]*]]></text>
+</define>
+
+<define name="_allmonth" extract="litmonth, month">
+  <text><![CDATA[(?:]]></text>
+        <use name="_litmonth"/>
+  <text><![CDATA[|]]></text>
+        <use name="_month"/>
+  <text><![CDATA[)]]></text>
+</define>
+
+<define name="_day"  extract="day">
+  <text><![CDATA[(0?[1-9]|[12]\d|3[01])]]></text> 
+</define>
+
+<define name="_usday" extract="day">
+  <use name="_day"/>
+  <text><![CDATA[(?:st|nd|rd|th|[,\.;])?]]></text>
+</define>
+
+<define name="_hour" extract="hour">
+  <text><![CDATA[([01]?[1-9]|[012][0-3])(?!\d)]]></text>
+</define>
+
+<define name="_minute" extract="minute">
+  <text><![CDATA[([0-6]\d)(?!\d)]]></text>
+</define>
+
+<define name="_second" extract="second">
+  <text><![CDATA[([0-6]\d)(?!\d)]]></text>
+</define>
+
+<define name="_zone" extract="zone">
+   <text><![CDATA[((?:(?:UT|UTC|GMT(?![+-])|CET|CEST|CETDST|MET|MEST|METDST|MEZ|MESZ|EET|EEST|EETDST|WET|WEST|WETDST|MSK|MSD|IST|JST|KST|HKT|AST|ADT|EST|EDT|CST|CDT|MST|MDT|PST|PDT|CAST|CADT|EAST|EADT|WAST|WADT|Z)|(?:GMT)?[+-]\d\d?:?(?:\d\d)?)(?!\w))?]]></text>
+</define>
+
+<define name="_time" extract="hour, minute, second, subsecond, zone">
+  <text><![CDATA[(?<=T)]]></text>
+        <use name="_hour"/>
+  <text><![CDATA[:]]></text>
+        <use name="_minute"/>
+  <text><![CDATA[:]]></text>
+        <use name="_second"/>
+  <text><![CDATA[(?:(?: \d{4})?[:,\.](\d+))? {0,2}]]></text>
+  <text><![CDATA[ {0,2}]]></text>
+        <use name="_zone"/>
+  <text><![CDATA[(?!:\d)]]></text>
+</define>
+
+<define name="_time_esxi_4x" extract="hour, minute, second, subsecond, zone">
+  <text><![CDATA[(?<=(?:[\./\-]\d{2}\s))]]></text>
+        <use name="_hour"/>
+  <text><![CDATA[:]]></text>
+        <use name="_minute"/>
+  <text><![CDATA[:]]></text>
+        <use name="_second"/>
+  <text><![CDATA[(?:(?: \d{4})?[:,\.](\d+))? {0,2}]]></text>
+  <text><![CDATA[ {0,2}]]></text>
+       <use name="_zone"/>
+  <text><![CDATA[(?!:\d)]]></text>
+</define>
+
+<!-- ESX 4x time format
+<define name="_time_esx_4x" extract="hour, minute, second">
+  <text><![CDATA[(?<!\d)]]></text>
+        <use name="_hour"/>
+  <text><![CDATA[:]]></text>
+        <use name="_minute"/>
+  <text><![CDATA[:]]></text>
+        <use name="_second"/>
+  <text><![CDATA[(?!:\d)]]></text>
+</define> -->
+
+
+
+<!-- Date Format -->
+<define name="_isodate" extract="year, ignored_sep, litmonth, month, day">
+  <text><![CDATA[(?<![\w\d])]]></text>
+        <use name="_year"/>
+  <text><![CDATA[([\./\- ])]]></text>
+        <use name="_allmonth"/>
+  <text><![CDATA[(?!\d)(?:[\./\- ] {0,2})?]]></text>
+        <use name="_day"/>
+  <text><![CDATA[(?!/)(?:(?=T)|(?!\w)(?!\.\d))]]></text>
+</define>
+
+<define name="_date_esxi_4x" extract="year, ignored_sep, litmonth, month, day">
+  <text><![CDATA[(?<=\s\[)]]></text>
+        <use name="_year"/>
+  <text><![CDATA[([\./\- ])]]></text>
+        <use name="_allmonth"/>
+  <text><![CDATA[(?!\d)(?:[\./\- ] {0,2})?]]></text>
+        <use name="_day"/>
+  <text><![CDATA[(?!/)(?:(?= )|(?!\w)(?!\.\d))]]></text>
+</define>
+
+<!-- ESX 4x time format
+<define name="_date_esx_4x" extract="litmonth, day">
+  <text><![CDATA[(?<![\w\d])]]></text>
+        <use name="_litmonth"/>
+  <text><![CDATA[(?!\d)(?:[\./\- ] {0,2})?]]></text>
+        <use name="_day"/>
+  <text><![CDATA[(?!/)(?:(?= )|(?!\w)(?!\.\d))]]></text>
+</define> -->
+
+
+<timePatterns>
+      <use name="_time"/>
+      <use name="_time_esxi_4x"/>
+      <!-- Uncomment the below comments if ESX 4 exists in the environment
+      <use name="_time_esx_4x"/> -->
+</timePatterns>
+<datePatterns>
+      <use name="_isodate"/>
+      <use name="_date_esxi_4x"/>
+      <!-- Uncomment the below comments if ESX 4 exists in the environment
+      <use name="_date_esx_4x"/> -->
+</datePatterns>
+
+</datetime>

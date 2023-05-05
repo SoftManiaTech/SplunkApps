@@ -1,0 +1,35 @@
+# shared Application-level permissions
+[]
+access = read : [ * ], write : [ admin ]
+export = system
+
+######################################################
+#
+# Splunk for Windows Infrastructure
+# Windows Domain Controller Data Definition
+# 
+# Copyright (C) 2016 Splunk, Inc.
+# All Rights Reserved
+#
+######################################################
+[]
+access = read : [ * ], write : [ admin, power ]
+
+[eventtypes]
+export = system
+
+[props]
+export = system
+
+[transforms]
+export = system
+
+[lookups]
+export = system
+
+[tags]
+export = system
+
+[viewstates]
+access = read : [ * ], write : [ * ]
+export = system

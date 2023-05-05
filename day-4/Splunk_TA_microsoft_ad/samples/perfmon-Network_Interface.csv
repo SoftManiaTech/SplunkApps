@@ -1,0 +1,601 @@
+index,host,source,sourcetype,"_raw","_time"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:35.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:57:35.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:35.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:57:35.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1529.8530970086738","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=5.0991770438168977","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=5.0991770438168977","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1529.8530970086738","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=5.0991770438168977","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:45.902 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:57:45.902-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=2872.6871895740651","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=9.6996190959581003","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=9.6996190959581003","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=2872.6871895740651","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=9.6996190959581003","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:57:55.900 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:57:55.900-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1638.2918550198196","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=7.3990599494334246","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=7.3990599494334246","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1638.2918550198196","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=7.3990599494334246","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:05.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:58:05.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=595.90854474142463","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=3.3006012045094013","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=3.3006012045094013","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=595.90854474142463","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=3.3006012045094013","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:15.897 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:58:15.897-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=704.46304386871861","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=4.1997796795580102","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=4.1997796795580102","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=704.46304386871861","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=4.1997796795580102","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:25.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:58:25.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1192.2075493465447","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=6.689381610101206","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=5.591124927845784","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Sent/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1.0982566822554218","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1105.5451129649352","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=5.591124927845784","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Sent/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=86.662436381609652","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Sent Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1.0982566822554218","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:35.913 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:58:35.913-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1800.8628638823084","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=9.6142161568625077","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=9.6142161568625077","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1800.8628638823084","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=9.6142161568625077","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:45.898 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:58:45.898-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1689.493548428871","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=8.39350946699936","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=8.39350946699936","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=1689.493548428871","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=8.39350946699936","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:58:55.908 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:58:55.908-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=3277.0170112259821","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=14.010761385605054","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10.307917305123718","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Sent/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=3.7028440804813356","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=2692.3679539780915","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=3.5026903464012635","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=6.8052269587224554","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Sent/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=584.64905724789094","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Sent Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=3.6027672134412998","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Sent Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=0.1000768670400361","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:05.896 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:59:05.896-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Total/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=945.11287219552071","2015-01-08T08:59:15.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=Packets/sec
+instance=""Microsoft Hyper-V Network Adapter""
+Value=4.7960056946172953","2015-01-08T08:59:15.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=4.7960056946172953","2015-01-08T08:59:15.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=10000000000","2015-01-08T08:59:15.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Bytes Received/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=945.11287219552071","2015-01-08T08:59:15.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Received Non-Unicast/sec""
+instance=""Microsoft Hyper-V Network Adapter""
+Value=4.7960056946172953","2015-01-08T08:59:15.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=100000","2015-01-08T08:59:15.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Packets Outbound Errors""
+instance=""Teredo Tunneling Pseudo-Interface""
+Value=1","2015-01-08T08:59:15.899-0800"
+perfmon,"WIN-6LR3JNJ6LVD","Perfmon:Network_Interface","Perfmon:Network_Interface","01/08/2015 08:59:15.899 -0800
+collection=Network_Interface
+object=""Network Interface""
+counter=""Current Bandwidth""
+instance=isatap.sv.splunk.com
+Value=100000","2015-01-08T08:59:15.899-0800"

@@ -1,0 +1,171 @@
+2/15/2013 2:07:25 AM 10E4 PACKET  0000000003BE1170 UDP Snd 172.27.162.72   ec0c R Q [8381   DR NXDOMAIN] A      (15)hydxyzodcadc01(6)xyz(2)ad(0)
+UDP response info at 0000000003BE1170
+  Socket = 324
+  Remote addr 172.27.162.72, port 61275
+  Time Query=6098887, Queued=6098887, Expire=6098892
+  Buf length = 0x0200 (512)
+  Msg length = 0x0063 (99)
+  Message:
+    XID       0xec0c
+    Flags     0x8183
+      QR        1 (RESPONSE)
+      OPCODE    0 (QUERY)
+      AA        0
+      TC        0
+      RD        1
+      RA        1
+      Z         0
+      CD        0
+      AD        0
+      RCODE     3 (NXDOMAIN)
+    QCOUNT    1
+    ACOUNT    0
+    NSCOUNT   1
+    ARCOUNT   0
+    QUESTION SECTION:
+    Offset = 0x000c, RR count = 0
+    Name      "(15)hydxyzodcadc01(6)xyz(2)ad(0)"
+      QTYPE   A (1)
+      QCLASS  1
+    ANSWER SECTION:
+      empty
+    AUTHORITY SECTION:
+    Offset = 0x002b, RR count = 0
+    Name      "[C01C](6)xyz(2)ad(0)"
+      TYPE   SOA  (6)
+      CLASS  1
+      TTL    900
+      DLEN   44
+      DATA   
+        PrimaryServer: (9)abcadc001[C01C](6)xyz(2)ad(0)
+        Administrator: (10)hostmaster(0)
+        SerialNo     = 18645
+        Refresh      = 900
+        Retry        = 600
+        Expire       = 86400
+        MinimumTTL   = 3600
+    ADDITIONAL SECTION:
+      empty
+
+2/15/2013 2:07:25 AM 10E4 PACKET  000000000416F460 UDP Rcv 172.27.162.72   97b4   Q [0001   D   NOERROR] SRV    (5)_ldap(4)_tcp(3)HIS(6)_sites(2)dc(6)_msdcs(7)xyzodc(2)ad(0)
+UDP question info at 000000000416F460
+  Socket = 324
+  Remote addr 172.27.162.72, port 61275
+  Time Query=6098887, Queued=0, Expire=0
+  Buf length = 0x0fa0 (4000)
+  Msg length = 0x003c (60)
+  Message:
+    XID       0x97b4
+    Flags     0x0100
+      QR        0 (QUESTION)
+      OPCODE    0 (QUERY)
+      AA        0
+      TC        0
+      RD        1
+      RA        0
+      Z         0
+      CD        0
+      AD        0
+      RCODE     0 (NOERROR)
+    QCOUNT    1
+    ACOUNT    0
+    NSCOUNT   0
+    ARCOUNT   0
+    QUESTION SECTION:
+    Offset = 0x000c, RR count = 0
+    Name      "(5)_ldap(4)_tcp(3)HIS(6)_sites(2)dc(6)_msdcs(7)xyzodc(2)ad(0)"
+      QTYPE   SRV (33)
+      QCLASS  1
+    ANSWER SECTION:
+      empty
+    AUTHORITY SECTION:
+      empty
+    ADDITIONAL SECTION:
+      empty
+
+2/15/2013 2:07:25 AM 10E4 PACKET  000000000416F460 UDP Snd 172.27.162.72   97b4 R Q [8085 A DR  REFUSED] SRV    (5)_ldap(4)_tcp(3)HIS(6)_sites(2)dc(6)_msdcs(7)xyzodc(2)ad(0)
+UDP response info at 000000000416F460
+  Socket = 324
+  Remote addr 172.27.162.72, port 61275
+  Time Query=6098887, Queued=0, Expire=0
+  Buf length = 0x0200 (512)
+  Msg length = 0x007a (122)
+  Message:
+    XID       0x97b4
+    Flags     0x8580
+      QR        1 (RESPONSE)
+      OPCODE    0 (QUERY)
+      AA        1
+      TC        0
+      RD        1
+      RA        1
+      Z         0
+      CD        0
+      AD        0
+      RCODE     0 (NOERROR)
+    QCOUNT    1
+    ACOUNT    1
+    NSCOUNT   0
+    ARCOUNT   1
+    QUESTION SECTION:
+    Offset = 0x000c, RR count = 0
+    Name      "(5)_ldap(4)_tcp(3)HIS(6)_sites(2)dc(6)_msdcs(7)xyzodc(2)ad(0)"
+      QTYPE   SRV (33)
+      QCLASS  1
+    ANSWER SECTION:
+    Offset = 0x003c, RR count = 0
+    Name      "[C00C](5)_ldap(4)_tcp(3)HIS(6)_sites(2)dc(6)_msdcs(7)xyzodc(2)ad(0)"
+      TYPE   SRV  (33)
+      CLASS  1
+      TTL    600
+      DLEN   34
+      DATA          Priority     = 0
+        Weight       = 100
+        Port         = 389
+        Target host (15)hydxyzodcadc01(7)xyzodc(2)ad(0)
+    AUTHORITY SECTION:
+      empty
+    ADDITIONAL SECTION:
+    Offset = 0x006a, RR count = 0
+    Name      "[C04E](15)hydxyzodcadc01(7)xyzodc(2)ad(0)"
+      TYPE   A  (1)
+      CLASS  1
+      TTL    3600
+      DLEN   4
+      DATA   172.27.163.210
+
+2/15/2013 2:07:29 AM 10E4 PACKET  000000000360EED0 UDP Rcv 172.18.206.101  e4e8   Q [0001   D   SERVFAIL] A      (4)wpad(7)xyzodc(2)ad(0)
+UDP question info at 000000000360EED0
+  Socket = 324
+  Remote addr 172.18.206.101, port 61275
+  Time Query=6098891, Queued=0, Expire=0
+  Buf length = 0x0fa0 (4000)
+  Msg length = 0x0021 (33)
+  Message:
+    XID       0xe4e8
+    Flags     0x0100
+      QR        0 (QUESTION)
+      OPCODE    0 (QUERY)
+      AA        0
+      TC        0
+      RD        1
+      RA        0
+      Z         0
+      CD        0
+      AD        0
+      RCODE     0 (NOERROR)
+    QCOUNT    1
+    ACOUNT    0
+    NSCOUNT   0
+    ARCOUNT   0
+    QUESTION SECTION:
+    Offset = 0x000c, RR count = 0
+    Name      "(4)wpad(7)xyzodc(2)ad(0)"
+      QTYPE   A (1)
+      QCLASS  1
+    ANSWER SECTION:
+      empty
+    AUTHORITY SECTION:
+      empty
+    ADDITIONAL SECTION:
+      empty

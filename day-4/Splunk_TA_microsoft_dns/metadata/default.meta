@@ -1,0 +1,30 @@
+######################################################
+#
+# Splunk for Windows Infrastructure
+# NT6 DNS Server Data Definition
+# 
+# Copyright (C) 2014 Splunk, Inc.
+# All Rights Reserved
+#
+######################################################
+[]
+access = read : [ * ], write : [ admin, power ]
+
+[eventtypes]
+export = system
+
+[props]
+export = system
+
+[transforms]
+export = system
+
+[lookups]
+export = system
+
+[tags]
+export = system
+
+[viewstates]
+access = read : [ * ], write : [ * ]
+export = system

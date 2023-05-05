@@ -1,0 +1,75 @@
+<form version="1.1">
+ <label>ldaptestconnection</label>
+ <description></description>  
+ <row>
+   <panel>
+     <html><div style="max-width: 860px;">
+<h1>The ldaptestconnection command</h1>
+<p>
+  The ldaptestconnection command tests the connection to each of the hosts servicing the LDAP directory identified by
+  <b>domain</b>. It must be placed at the beginning of a search pipeline. A sample usage follows:
+</p>
+<pre>
+| ldaptestconnection domain=default
+</pre>
+<p>
+  On return, ldaptestconnection generates a single event record for each host servicing the LDAP directory identified
+  by the default domain. Each record contains the host name and the distinguished name of the domain. If the connection
+  test fails for any reason, an error message is produced instead.
+</p>
+<h2>Options</h2>
+<!-- domain -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>domain=</b><i>&lt;domain-specifier&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies the name of a configuration stanza in ldap.conf. If you do not specify a domain, the command uses the
+  default stanza.
+</p>
+<!-- debug -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>debug=</b><i>&lt;bool&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  If set to true, debug logging is in effect. This is a short-hand for <b>logging_level=DEBUG</b>.
+</p>
+<!-- logging_level -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>logging_level=</b><b>Critical</b>|<b>error</b>|<b>warning</b>|<b>info</b>|<b>debug</b></p>
+<p style="margin-bottom: 2px; margin-left: 45px; margin-top: 2px;">
+  Specifies the logging level for the $SPLUNK_HOME/var/log/splunk/SA-ldapsearch.log file. Splunk can access this file
+  with the "index=_internal sourcetype=SA-ldapsearch" search and exposes the following fields:
+  <table cellpadding="2" style="margin-left: 43px; margin-top: 2px">
+    <tr>
+      <td><b>File</b></td>
+      <td>Full pathname of the source file where the logging call was made.</td>
+    </tr>
+    <tr>
+      <td><b>Level</b></td>
+      <td>
+        Level of the logging call that was made; one of <b>critical</b>, <b>error</b>, <b>warning</b>,
+        <b>info</b>, or <b>debug</b>.
+      </td>
+    </tr>
+    <tr>
+      <td><b>Line</b></td>
+      <td>Line number in the source file where the logging call was made.</td>
+    </tr>
+    <tr>
+      <td><b>Pid</b></td>
+      <td>ID of the process that made the logging call.</td>
+    </tr>
+    <tr>
+      <td><b>log_source</b></td>
+      <td>
+        String of the form "<b>Pid=</b><i>&lt;Pid&gt;</i><b>, File=</b><i>&lt;File&gt;</i><b>,
+        Line=</b><i>&lt;Line&gt;</i>".
+      </td>
+    </tr>
+    <tr>
+      <td><b>message</b></td>
+      <td>Full text of the logged message.</td>
+    </tr>
+  </table>
+</p>
+
+</div>
+</html>
+   </panel>
+ </row>
+</form>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009-2021 Splunk Inc. All Rights Reserved. -->
+<form script="configuration.js" version="1.1" isDashboard="false">
+  <label>Configuration</label>
+  <row>
+    <html>
+      <form id="configuration" style="max-width: 883px">
+        <style>
+
+          .alert {
+            margin: 0;
+            padding: 0;
+          }
+
+          .configuration-action-bar {
+            margin-top: 10px;
+            padding-top: 12px;
+            padding-left: 0px;
+            padding-bottom: 0px;
+            padding-right: 12px;
+            width: 100%;
+          }
+
+          .configuration-error {
+            color: #d85d3c;
+            display: none;
+            margin-top: -10px;
+            margin-bottom: 10px;
+          }
+
+          .configuration-group {
+            padding-right: 20px;
+            padding-top: 20px;
+            text-align: right;
+            font-weight: bold;
+          }
+
+          .configuration-label {
+            height: 0px;
+            white-space: nowrap;
+            padding-right: 20px;
+            text-align: right;
+          }
+
+          .configuration-input {
+            height: 0px;
+          }
+
+          .configuration-select {
+            border-radius: 0;
+            margin-bottom: 0;
+            width: 250px;
+          }
+
+          .configuration-select-toolbar {
+            background-color: #eeeeee;
+            border: 1px solid #bfbfbf;
+            border-top: 0;
+            margin-bottom: 6px;
+            width: 248px;
+          }
+
+          .splunk-message-container {
+            margin: 0;
+            padding: 0;
+          }
+
+          input {
+            max-width: 550px;
+            width: 100%;
+			padding: 4px 0 !important;
+			padding-left: 3px !important;
+          }
+
+          input[type="checkbox"] {
+            margin: 0;
+          }
+
+          textarea {
+            width: 100%;
+          }
+
+        </style>
+        <table>
+          <tbody>
+            <tr>
+              <td align="left" valign="top" rowspan="19" style="padding-right: 20px; width: 250px">
+                <select class="configuration-select" id="domains" size="24">
+                  <option value="default">default</option>
+                </select>
+                <div class="configuration-select-toolbar btn-group">
+                  <a id="add" class="btn btn-small btn-square"
+                     style="border-radius: 0; border-top: 0; border-bottom: 0; border-left: 0;" title="">
+                    <i class="icon-plus"/>
+                    <span class="hide-text">Create a new configuration</span>
+                  </a>
+                  <a id="config_remove" class="btn btn-small btn-square"
+                     style="border-radius: 0; border-top: 0; border-bottom: 0;" title="">
+                    <i class="icon-minus"/>
+                    <span class="hide-text">Delete the selected configuration</span>
+                  </a>
+                </div>
+              </td>
+              <!-- Domain -->
+              <td class="configuration-label">
+                <label for="domain" style="font-weight: bold;">Domain name *</label>
+              </td>
+              <td class="configuration-input control-group" style="padding-top: 4px">
+                <input id="configured_domain" type="text" size="255"/>
+              </td>
+            </tr>
+            <tr>
+              <td class="configuration-label"/>
+              <td id="domainError" class="configuration-error"/>
+            </tr>
+            <!-- ...alternatedomain -->
+            <tr>
+              <td class="configuration-label">
+                <label for="alternatedomain">Alternate domain name *</label>
+              </td>
+              <td class="configuration-input control-group">
+                <input id="alternatedomain" type="text" size="255" autofocus="autofocus" placeholder="Please enter in capital letters"/>
+              </td>
+            </tr>
+            <tr>
+              <td class="configuration-label"/>
+              <td id="alternatedomainError" class="configuration-error"/>
+            </tr>
+            <!-- ...basedn -->
+            <tr>
+              <td class="configuration-label">
+                <label for="basedn">Base DN *</label>
+              </td>
+              <td class="configuration-input control-group">
+                <input id="basedn" type="text"/>
+              </td>
+            </tr>
+            <tr>
+              <td class="configuration-label"/>
+              <td id="basednError" class="configuration-error"/>
+            </tr>
+            <!-- LDAP Server -->
+            <tr>
+              <td class="configuration-group">
+                LDAP Server
+              </td>
+            </tr>
+            <!-- ...server -->
+            <tr>
+              <td class="configuration-label">
+                <label for="server">Hostname *</label>
+              </td>
+              <td class="configuration-input control-group">
+                <input id="server" type="text" size="255"/>
+              </td>
+            </tr>
+            <tr>
+              <td class="configuration-label"/>
+              <td id="serverError" class="configuration-error"/>
+            </tr>
+            <!-- ...port -->
+            <tr>
+              <td class="configuration-label">
+                <label for="port">Port</label>
+              </td>
+              <td class="configuration-input control-group">
+                <input id="port" type="text" size="5"/>
+              </td>
+            </tr>
+            <tr>
+              <td class="configuration-label"/>
+              <td id="portError" class="configuration-error"/>
+            </tr>
+            <!-- ...ssl -->
+            <tr>
+              <td class="configuration-label">
+                <label for="ssl">SSL</label>
+              </td>
+              <td class="configuration-input control-group" valign="top">
+                <input id="ssl" type="checkbox" value="1"/>
+              </td>
+            </tr>
+            <tr>
+              <td class="configuration-label"/>
+              <td id="sslError" class="configuration-error"/>
+            </tr>
+            <!-- Credentials -->
+            <tr>
+              <td class="configuration-group">
+                Credentials
+              </td>
+            </tr>
+            <!-- ...binddn -->
+            <tr>
+              <td class="configuration-label">
+                <label for="binddn">Bind DN</label>
+              </td>
+              <td class="configuration-input control-group">
+                <input id="binddn" type="text" size="255"/>
+              </td>
+            </tr>
+            <tr>
+              <td class="configuration-label"/>
+              <td id="binddnError" class="configuration-error"/>
+            </tr>
+            <!-- ...password -->
+            <tr>
+              <td class="configuration-label">
+                <label for="password">Password</label>
+              </td>
+              <td class="configuration-input control-group">
+                <input id="password" type="password"/>
+              </td>
+            </tr>
+            <tr>
+              <td class="configuration-label"/>
+              <td id="passwordError" class="configuration-error"/>
+            </tr>
+            <!-- Status -->
+            <tr>
+              <td class="configuration-label">
+                <label for="connectionStatus" style="font-weight: bold;">Connection status</label>
+              </td>
+              <td class="configuration-input control-group">
+                <div id="connectionStatus_alert" class="alert alert-warning" style="margin-bottom: 2px;">
+                  <i class="icon-alert" style="font-size: 26pt;"/>
+                </div>
+                <div style="float:left; width:75%;">
+                  <input id="connectionStatus_text" readonly="" size="255" type="text" value="Untested"
+                         style="border-bottom-right-radius: 0; border-top-right-radius: 0; margin-left: 28px;"/>
+				</div>
+				<div style="float:right; width:25%;">
+                  <a id="test" class="btn pull-right"
+                     style="border-bottom-left-radius: 0; border-top-left-radius: 0;">
+                    Test connection
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="configuration-action-bar popdown-dialog-footer">
+          * Indicates a required field
+          <a id="save" class="btn btn-primary pull-right" style="margin-right: -12px;">
+            Save
+          </a>
+        </div>
+      </form>
+      <!-- Dialogs -->
+      <div id="alertDialog" class="modal hide fade in" aria-hidden="true"
+           style="display: none; white-space: nowrap; width: auto;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h3 id="alertDialog_header" style="padding-right: 45px"/>
+        </div>
+        <div class="modal-body">
+          <div id="alertDialog_body" style="padding-top: 7px; padding-left: 30px;"/>
+        </div>
+        <div class="modal-footer">
+          <a id='alertDialog_close' href="#" class="btn btn-primary" data-dismiss="modal">OK</a>
+        </div>
+      </div>
+      <div id="confirmDialog" class="modal hide fade in" aria-hidden="true"
+           style="display: none; white-space: nowrap; width: auto;">
+        <div class="modal-header">
+          <button id="confirmDialog_cross" type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+          </button>
+          <h3 id="confirmDialog_header" style="padding-right: 45px"/>
+        </div>
+        <div class="modal-body">
+          <div id="confirmDialog_body" style="padding-top: 7px; padding-left: 30px;"/>
+        </div>
+        <div id="confirmDialog_footer" class="modal-footer"/>
+      </div>
+      <div id="testConnectionDialog" class="modal hide fade in" aria-hidden="true"
+           style="display: none; max-width: 625px; min-width: 550px; white-space: nowrap; width: auto;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h3 id="testConnectionDialog_header"/>
+        </div>
+        <div class="modal-body">
+          <h4 class="search-name section-title search-title-searchname" data-cid="view425"
+              data-view="views/search/title/SearchName" title="Search" data-render-time="0.001">
+            <i class="icon-search-thin"/>
+            Search
+          </h4>
+          <div id="testConnectionDialog_command" style="margin-top: 6px; margin-bottom: 20px;"/>
+          <h4 class="search-name section-title search-title-searchname" data-cid="view425"
+              data-view="views/search/title/SearchName" title="Result" data-render-time="0.001">
+            Result
+          </h4>
+          <div id="testConnectionDialog_result" style="margin-top: 6px;"/>
+          <div id="testConnectionDialog_message" style="margin-top: 6px; white-space: normal;"/>
+        </div>
+        <div class="modal-footer">
+          <a id="testConnectionDialog_close" href="#" class="btn btn-primary">Close</a>
+        </div>
+      </div>
+    </html>
+  </row>
+</form>

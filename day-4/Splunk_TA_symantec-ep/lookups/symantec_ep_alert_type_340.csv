@@ -1,0 +1,17 @@
+description,type,severity
+Scan resumed on all drives and all extensions.,alert,
+This device is not licensed for Memory Exploit Mitigation Custom Applications.,alert,
+Symantec Endpoint Protection is overdeployed,alert,informational
+User is attempting to terminate Symantec Management Client*,alert,
+Already running process*,alert,
+Information submitted to Symantec.*,alert,
+Symantec Endpoint Protection requires a restart*,alert,
+[SONAR detection Submission] File submitted to Symantec*,alert,
+Host Integrity check passed*,event,
+Sending Email Failed*,alert,medium
+[Network data submission] Information submitted to Symantec*,alert,
+[Intrusion prevention submission] Information submitted to Symantec*,alert,
+[Client authentication token request] Submitting information to Symantec*,alert,
+Symantec Endpoint Protection has determined that the virus*,alert,
+Please restart*,alert,
+Cannot assign a client authentication token*,alert,

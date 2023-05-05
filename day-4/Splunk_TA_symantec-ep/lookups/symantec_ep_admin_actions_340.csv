@@ -1,0 +1,15 @@
+vendor_action,action,change_type
+Policy has been edited,modified,filesystem
+Add shared policy,created,filesystem
+determined that the virus definitions are missing,read,filesystem
+The management server received the client log successfully,read,filesystem
+The client has downloaded the content package successfully,read,filesystem
+The client has reconnected with the management server,modified,AAA
+The client registered with the management server successfully,modified,AAA
+The client has downloaded sylink.xml successfully,read,filesystem
+The client computer has been added to the group,modified,AAA
+Downloaded new content update from the management server failed,error,filesystem
+The client has downloaded the policy successfully,read,filesystem
+The client has downloaded the auto-upgrade configuration file successfully,read,filesystem
+Client has downloaded the issued Command,read,filesystem
+The client has downloaded globalindex.dax,created,filesystem

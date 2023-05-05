@@ -1,0 +1,67 @@
+{
+  "dependencies": null,
+  "incompatibleApps": null,
+  "info": {
+    "author": [
+      {
+        "name": "Splunk",
+        "email": null,
+        "company": null
+      }
+    ],
+    "classification": {
+      "categories": [
+        "IT Operations",
+        "Security, Fraud & Compliance"
+      ],
+      "developmentStatus": "Production/Stable",
+      "intendedAudience": "IT"
+    },
+    "commonInformationModels": {
+      "Authentication": "==5.0.1",
+      "Change": "==5.0.1",
+      "Intrusion Detection": "==5.0.1",
+      "Network Resolution (DNS)": "==5.0.1",
+      "Network Sessions (DHCP)": "==5.0.1",
+      "Network Sessions (Session End)": "==5.0.1",
+      "Network Sessions (Session Start)": "==5.0.1"
+    },
+    "description": "Splunk Add-on for Infoblox",
+    "id": {
+      "group": null,
+      "name": "Splunk_TA_infoblox",
+      "version": "2.2.0"
+    },
+    "license": {
+      "name": "Splunk Software License Agreement",
+      "text": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+      "uri": "http://www.splunk.com/view/SP-CAAAAFA"
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseDate": null,
+    "releaseNotes": {
+      "name": "README",
+      "text": "./README.txt",
+      "uri": "https://docs.splunk.com/Documentation/AddOns/released/Infoblox/Releasenotes"
+    },
+    "title": "Splunk Add-on for Infoblox"
+  },
+  "inputGroups": null,
+  "platformRequirements": null,
+  "schemaVersion": "2.0.0",
+  "supportedDeployments": [
+    "_standalone",
+    "_distributed",
+    "_search_head_clustering"
+  ],
+  "targetWorkloads": [
+    "_search_heads",
+    "_indexers",
+    "_forwarders"
+  ],
+  "tasks": null
+}

@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "date": "2022-11-12T09:53:24.60264807Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 3208,
+    "version": "1.0.1",
+    "files": [
+      {
+        "path": "appserver/static/appIcon.png",
+        "hash": "b0bca6df1563c074c7dbfcac48a7b67cef44697b42e76ffbb76b999f0383ccdc"
+      },
+      {
+        "path": "bin/powershell/dns-health.ps1",
+        "hash": "02a1012366148360309c515c0bc48d744b24987241676a5cfdf8b4759b26aacf"
+      },
+      {
+        "path": "bin/powershell/dns-zoneinfo.ps1",
+        "hash": "fd51966364ab6e83f38823494ec37fde9f2d85dda66b46a8d9f106379fc65642"
+      },
+      {
+        "path": "bin/runpowershell.cmd",
+        "hash": "cfe230a2f1094b8ed1408b18aa58300561a63b93b953f50ab045bd6f58df14b9"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "d26c8b005b871a6a56e302647eb57a036de44a716acbd8ecfc7cff1b12670a04"
+      },
+      {
+        "path": "default/eventgen.conf",
+        "hash": "315434f9987f5e53a924c552512800e888829ef1b2e2fec01d476c3d77d048ae"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "7b10698a4cff32d980e76c2eadb259e82feb3f81e8ee16a617ffe3cd2e6d0e7b"
+      },
+      {
+        "path": "default/indexes.conf",
+        "hash": "8b901fd7fc55c8d28594ef2c24d9596c8e23975b1b03a51b51a3bb23e70dbacb"
+      },
+      {
+        "path": "default/inputs.conf",
+        "hash": "d1e553d2f5557ab986dd1c3247bbcdcea6dc27e0d75019e6e1761531e06d3958"
+      },
+      {
+        "path": "default/perfmon.conf",
+        "hash": "45570ef9af83071f5e27159f5ccb2e85d32a22409413cd9f8d4edb496042cbdb"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "f6e61e551a5ff0adb32a08e67111058edb32c2e8612b443c999df7ee4e01c02d"
+      },
+      {
+        "path": "default/tags.conf",
+        "hash": "239aa6752e22a756cfd71f10a02f454a890baf5f356efe6a7bf4ced3a5601eff"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "0010db1fd62d6f4518e2e89db7991efe6d2c343dfd7169103a0b9627e1bc6148"
+      },
+      {
+        "path": "license-eula.rtf",
+        "hash": "52ed437423e1fec818c133c2aa5399a09051e3d852214bb097abd4493bf524c7"
+      },
+      {
+        "path": "license-eula.txt",
+        "hash": "b1f64d4d3c6a8711e9967e05a2f2e354e24273191ac98ffd0b643319e60ac747"
+      },
+      {
+        "path": "lookups/dns_action_lookup.csv",
+        "hash": "712f9bf107a7d383c0d28575040ed7c60a701ce7c335d7b2687b073ff9fab379"
+      },
+      {
+        "path": "lookups/dns_recordclass_lookup.csv",
+        "hash": "ce9a392444e77bb4dcf5f76e27197a4dbcd83862fe6a36f9ff9f7e918b83c786"
+      },
+      {
+        "path": "lookups/dns_vendor_lookup.csv",
+        "hash": "1986da585a391ba0156960df394766d5b3c92e623e19b54df1943c81fa3cc251"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "a54f549e0951dd3b10459b2aa5e59aa7f33d4e50fbdbacf73e446695a7f91ea5"
+      },
+      {
+        "path": "README.txt",
+        "hash": "2b501a6a8b216e010c00493e28fd193944caaf08305d0046ca97e97733a51f01"
+      },
+      {
+        "path": "samples/dns.log",
+        "hash": "bf6b8b9c635e06fd6c81fa9756f541b4da74b964c930307b40bc9b5bdf7fa929"
+      },
+      {
+        "path": "samples/MSAD-NT6-DNS-Health.csv",
+        "hash": "4a769217e9e4e6734fc6bbf70b1210453eb6d7ac0ada7ae459a137e0da6de434"
+      },
+      {
+        "path": "samples/MSAD-NT6-DNS-Zone-Information.csv",
+        "hash": "84fb91a4245bcc6a730a8fa4cf11dbaea1ea7fb53ca0d489e460706687c143c5"
+      },
+      {
+        "path": "samples/perfmon-DNS.csv",
+        "hash": "39738afb2efde106130791ae0892365c0e4a04eef7aa8c00aa4399946fcf620f"
+      },
+      {
+        "path": "samples/perfmon-Memory.csv",
+        "hash": "4f10667c0658cc8f14b3d668f34aa48c169b7a7342b6deb95229dcf9d3a12924"
+      },
+      {
+        "path": "samples/perfmon-Network_Interface.csv",
+        "hash": "19dd51d72a585d672dbe311d368b398093b45fe9bc034931b47dae490277c429"
+      },
+      {
+        "path": "samples/perfmon-Processor.csv",
+        "hash": "dfebcace4f6788d39e694d4732c36142c53d4e5a75b58fdcde8e7da44e4933cb"
+      },
+      {
+        "path": "samples/WinEventLog-DNS-Server.csv",
+        "hash": "b87050598597fd71b7b8c930bba48e034c0daf89d2ebd55f787e914e42391a9f"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "ed6f90e4767434de479b483bbf61a33e6a6df49e6343e175a4429571d6f94ca4"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "ed6f90e4767434de479b483bbf61a33e6a6df49e6343e175a4429571d6f94ca4"
+      },
+      {
+        "path": "static/appIconAlt_2x.png",
+        "hash": "ed6f90e4767434de479b483bbf61a33e6a6df49e6343e175a4429571d6f94ca4"
+      },
+      {
+        "path": "static/appIconAlt.png",
+        "hash": "ed6f90e4767434de479b483bbf61a33e6a6df49e6343e175a4429571d6f94ca4"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "7.0",
+        "7.1",
+        "7.2"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "7.0",
+        "7.1",
+        "7.2"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}

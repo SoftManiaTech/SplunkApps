@@ -1,0 +1,159 @@
+{
+  "version": "1.0",
+  "date": "2023-01-09T20:40:44.797834853Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 2772,
+    "version": "3.4.1",
+    "files": [
+      {
+        "path": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+        "hash": "37906d637abbbeca35cfb2efcb658cabbc0208d101848372c1e55fbf9ba62e47"
+      },
+      {
+        "path": "README.txt",
+        "hash": "7ec774ec0ce1627a76f1ad41ef1f1c5d6bf8466709d61f91ce6f2ebfd5e79fc9"
+      },
+      {
+        "path": "THIRDPARTY",
+        "hash": "ce8048bb404447bc68b8ad1ca4785574fc8d192700990debf5bf9916f0e5ace8"
+      },
+      {
+        "path": "VERSION",
+        "hash": "741e0f57c5287e92d8c3a3df66784796cae321c4dfa38e10411729de32143bde"
+      },
+      {
+        "path": "app.manifest",
+        "hash": "6b77de15f0292def0241a3f1b3a6d90cdb6132a229f7acf2ecc72340d601e289"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "2b782341df67638f3e32a99c5cedd81319395e33824ece781bfcf7dec9a43b33"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "74727021db6ac811ee5365e2b4f7828d48e9b8f0a444cbb4ed45c0c1e64442c1"
+      },
+      {
+        "path": "default/inputs.conf.template",
+        "hash": "f45f589a3592df7b4667cdaf1c540741bccf7aa284ef1cf6fb40f855761b71d8"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "77ff4435d66fe2fc8168bbbe2c5d45d0c4f0f19be78ac4dcaeafd89d90853409"
+      },
+      {
+        "path": "default/tags.conf",
+        "hash": "957288b3995d495032ee90ffed3c424053c7c56f7862b82a26a97cbd3146795c"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "a40ccd9fbadf967671be6537440ab7c4a5b1e6a380b094ae50ab9b7700e84b58"
+      },
+      {
+        "path": "lookups/symantec_ep_actions.csv",
+        "hash": "3bd568acee7283aba18b14db1ae924116177fb80c1eaa364715467d0e7df01fe"
+      },
+      {
+        "path": "lookups/symantec_ep_admin_actions_340.csv",
+        "hash": "ce8afb46fbc638a209d5cce01451f5ef2315af9e7e338997a58f212a52702e8d"
+      },
+      {
+        "path": "lookups/symantec_ep_admin_authentication_action.csv",
+        "hash": "04faacfc029e5b94e2906d2ec306bb651d0f52f3bd327bd19419d2a06c12e46b"
+      },
+      {
+        "path": "lookups/symantec_ep_alert_type_340.csv",
+        "hash": "e9d2765d83fa17edaa4bd45e8d6276da092202ec2a7950f4557c8404a69629b1"
+      },
+      {
+        "path": "lookups/symantec_ep_authentication_fields.csv",
+        "hash": "7448286b802a0320cb31be6d83564446534ab5bcebfd9c2c52736e54b85ff105"
+      },
+      {
+        "path": "lookups/symantec_ep_change_action_340.csv",
+        "hash": "108d54229a752666e0a31c30d9422a9f9dd7787998a2a025288990c885bacc06"
+      },
+      {
+        "path": "lookups/symantec_ep_change_data_model_fields_341.csv",
+        "hash": "32432bacd787edf7454eda3516d1479138ee3851a676261d6b00beaf13563a9b"
+      },
+      {
+        "path": "lookups/symantec_ep_data_model_340.csv",
+        "hash": "500980b98461866f05ecee06fce51bd6cbd2cd9ce8cb565cd4befc435015bb58"
+      },
+      {
+        "path": "lookups/symantec_ep_endpoint_service_fields.csv",
+        "hash": "cc2c2a72507a5378a2276dcec1485e51ef406adeedde6dc3292ac234f56e97c6"
+      },
+      {
+        "path": "lookups/symantec_ep_icmp_types.csv",
+        "hash": "b530534cee466a9dc781f933a84491ee70b631bc29b738f8732e0b186194062c"
+      },
+      {
+        "path": "lookups/symantec_ep_severity.csv",
+        "hash": "37b6e8e623200656e0b9a169c7eb1e834182dd6b813efeabcdafea011a6d776d"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "229183f13a975c549a04ef4df69616b1d9e4acc54ef9a14850d8a6aacb2b2da0"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+      },
+      {
+        "path": "static/appIconAlt.png",
+        "hash": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+      },
+      {
+        "path": "static/appIconAlt_2x.png",
+        "hash": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}

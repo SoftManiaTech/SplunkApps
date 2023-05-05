@@ -1,0 +1,60 @@
+vendor_action,status,change_type,object_category
+The client has downloaded * successfully,success,,filesystem
+The client has reconnected with the management server,success,,application
+The client has downloaded globalindex.dax,success,filesystem,Network
+The client computer has been added to the group,success,,group
+The client registered with the management server successfully,success,,application
+Package properties have been changed,success,property,filesystem
+Client has downloaded the issued Command,success,filesystem,application
+Administrator logout,success,AAA,application
+Computer properties have been changed,success,property,application
+Computer mode has been switched,success,property,application
+User mode has been switched,success,property,application
+Deployment package has been created,success,filesystem,filesystem
+An update for *,,filesystem,filesystem
+Downloaded new content update *,,filesystem,filesystem
+Connected to Symantec Endpoint Protection Manager*,,filesystem,application
+Disconnected from Symantec Endpoint Protection Manager*,,filesystem,application
+Applied new policy with serial number*,,filesystem,application
+Symantec Endpoint Protection Tamper Protection Enabled,,filesystem,application
+Symantec Management Client has been started.,,filesystem,application
+Symantec Management Client is stopped.,,filesystem,application
+The client has successfully downloaded and applied a license file *,,filesystem,filesystem
+Received a new policy with serial number*,,filesystem,filesystem
+A LiveUpdate session ran successfully*,,filesystem,application
+Added Symantec license*,,filesystem,application
+Deleted Symantec license*,,filesystem,application
+Transaction log truncation succeeded and finished.,,filesystem,filesystem
+Successfully downloaded*,,filesystem,filesystem
+Download started.,,filesystem,filesystem
+Backup initiated by scheduled task*,,filesystem,application
+Backup succeeded and finished*,,filesystem,filesystem
+The password of system administrator *,success,AAA,application
+Domain administrator * ,success,AAA,application
+Domain '* ,success,filesystem,application
+Policy has been*,,filesystem,policy
+Added shared policy upon system install*,,policy,filesystem
+Group * was deleted,success,AAA,group
+System administrator *,success,AAA,application
+Transaction log truncation started*,,filesystem,filesystem
+Database maintenance *,,filesystem,filesystem
+Management server started up successfully,,filesystem,application
+Management server shut down gracefully,,filesystem,application
+Network Audit Client Remote Pushing Install Finished Normally,,filesystem,filesystem
+SymELAM Protection *,,filesystem,application
+Memory Exploit Mitigation *,,filesystem,application
+Successfully imported *,,filesystem,filesystem
+Symantec Endpoint Protection services *,,filesystem,application
+New virus *,,filesystem,filesystem
+Computer * has been deleted,success,filesystem,application
+*is Moved from*,success,filesystem,application
+*Name="New Intrusion Prevention policy"*,,filesystem,filesystem
+* Policy changes *,success,filesystem,policy
+*Name="New Firewall policy"*,,filesystem,filesystem
+*Name="New Virus and Spyware Protection policy"*,,filesystem,policy
+*Name="Default Intensive Protection Policy v1"*,,filesystem,filesystem
+Default Intensive Protection Policy *,,filesystem,policy
+Symantec Endpoint Protection -- *,,filesystem,
+System Administrator *,success,AAA,application
+The management server received the client log successfully,success,,
+The management server enabled compliance checking.*,,system,policy

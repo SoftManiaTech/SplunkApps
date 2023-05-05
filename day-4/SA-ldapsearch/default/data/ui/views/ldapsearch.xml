@@ -1,0 +1,165 @@
+<form version="1.1">
+ <label>ldapsearch</label>
+ <description></description>  
+ <row>
+   <panel>
+     <html>
+         <div style="max-width: 860px;">
+<h1>The ldapsearch command</h1>
+<p>
+  The ldapsearch command opens a connection to an LDAP server. It then performs a search using the specified
+  options and generates one event per result entry. The ldapsearch command must appear at the beginning of
+  a search pipeline.
+</p>
+<h3>Example</h3>
+<p style="margin-left: 6px;">
+  Get all attributes for all users in the default domain.
+</p>
+<pre style="margin-left: 6px;">
+| ldapsearch search="(&amp;(objectClass=user)(!(objectClass=computer)))" attrs="distinguishedName,objectCategory"
+</pre>
+<h2>Options</h2>
+<!-- search -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>search=</b><i>&lt;search-filter&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  An LDAP search filter. The filter must conform to the string representation for search filters as defined in
+  <a href="http://tools.ietf.org/html/rfc2254">RFC 2254</a>.
+</p>
+<!-- attrs -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>attrs=</b><i>&lt;attribute-names&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  A comma-separated list of attribute names. If you specify '*' or do not specify any attributes, the command returns
+  all user attributes. If you specify '+', it returns all operational attributes.
+</p>
+<!-- domain -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>domain=</b><i>&lt;domain-specifier&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies the name of a configuration stanza in ldap.conf. If you do not specify a domain, the command uses the
+  default stanza.
+</p>
+<!-- basedn -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>basedn=</b><i>&lt;search-base&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies a search base as the starting point instead of the default as set in the ldap configuration stanza
+  identified by <b>domain</b>.
+</p>
+<!-- scope -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>scope=</b><b>base</b>|<b>one</b>|<b><u>sub</u></b></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies the scope of the search to be one of <b>base</b>, <b>one</b>, or <b>sub</b>. The default is <b>sub</b>.
+</p>
+<!-- limit -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>limit=</b><i>&lt;size-limit&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  Specifies the maximum number of entries that the command should retrieve. A value of 0 (zero) means there is no
+  limit. A server can impose a maximum size limit. The default is zero.
+</p>
+<!-- debug -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>debug=</b><i>&lt;bool&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  If set to true, debug logging is in effect. This is a short-hand for <b>logging_level=DEBUG</b>.
+</p>
+<!-- decode -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>decode=</b><i>&lt;bool&gt;</i></p>
+<p style="margin-left: 45px; margin-top: 2px;">
+  If set to true, Active Directory formatting rules are applied to attributes. The default is the value of decode as
+  specified in the configuration stanza for domain.
+</p>
+<!-- logging_level -->
+<p style="margin-bottom: 0; margin-left: 6px;"><b>logging_level=</b><b>critical</b>|<b>error</b>|<b>warning</b>|<b>info</b>|<b>debug</b></p>
+<p style="margin-bottom: 2px; margin-left: 45px; margin-top: 2px;">
+  Specifies the logging level for the $SPLUNK_HOME/var/log/splunk/SA-ldapsearch.log file. Splunk can access this file
+  with the "index=_internal sourcetype=SA-ldapsearch" search and exposes the following fields:
+  <table cellpadding="2" style="margin-left: 43px; margin-top: 2px">
+    <tr>
+      <td><b>File</b></td>
+      <td>Full pathname of the source file where the logging call was made.</td>
+    </tr>
+    <tr>
+      <td><b>Level</b></td>
+      <td>
+        Level of the logging call that was made; one of <b>CRITICAL</b>, <b>ERROR</b>, <b>WARNING</b>,
+        <b>INFO</b>, or <b>DEBUG</b>.
+      </td>
+    </tr>
+    <tr>
+      <td><b>Line</b></td>
+      <td>Line number in the source file where the logging call was made.</td>
+    </tr>
+    <tr>
+      <td><b>Pid</b></td>
+      <td>ID of the process that made the logging call.</td>
+    </tr>
+    <tr>
+      <td><b>log_source</b></td>
+      <td>
+        String of the form "<b>Pid=</b><i>&lt;Pid&gt;</i><b>, File=</b><i>&lt;File&gt;</i><b>,
+        Line=</b><i>&lt;Line&gt;</i>".
+      </td>
+    </tr>
+    <tr>
+      <td><b>message</b></td>
+      <td>Full text of the logged message.</td>
+    </tr>
+  </table>
+</p>
+<h2>Output Format</h2>
+<p style="margin-left: 6px;">
+  The command returns each event as the Java Standard Object Notation (JSON) representation of the record. It also
+  returns a number of attributes as field values. When the command returns attributes as values, it decodes those
+  values on the fly and presents globally unique IDs (GUID), security IDs (SID), or security descriptor in
+  human-readable form.
+</p>
+<h2>Examples</h2>
+<p style="margin-left: 6px;">To get a table suitable for pushing into the identities.csv file for Enterprise Security:</p>
+<pre style="margin-left: 6px;">
+| ldapsearch search="(&amp;(objectClass=user)(!(objectClass=computer)))"
+  | search userAccountControl="NORMAL_ACCOUNT"
+  | eval suffix=""
+  | eval priority="medium"
+  | eval category="normal"
+  | eval watchlist="false"
+  | eval endDate=""
+  | table sAMAccountName, personalTitle, displayName, givenName, sn, suffix, mail, telephoneNumber,
+      mobile, manager, priority, department, category, watchlist, whenCreated, endDate
+  | rename sAMAccountName as identity, personalTitle as prefix, displayName as nick,
+      givenName as first, sn as last, mail as email, telephoneNumber as phone,
+      mobile as phone2, manager as managedBy, department as bunit, whenCreated as startDate
+</pre>
+<p style="margin-left: 6px;">
+  If you have multiple domains, join multiple 'ldapsearch' commands with the 'append' command. For instance:
+</p>
+<pre style="margin-left: 6px;">
+| ldapsearch domain=SPL search="(&amp;(objectClass=user)(!(objectClass=computer)))"
+  | search userAccountControl="NORMAL_ACCOUNT"
+  | eval suffix=""
+  | eval priority="medium"
+  | eval category="normal"
+  | eval watchlist="false"
+  | eval endDate=""
+  | eval identity = "SPL\\" + sAMAccountName
+  | table identity, personalTitle, displayName, givenName, sn, suffix, mail, telephoneNumber,
+      mobile, manager, priority, department, category, watchlist, whenCreated, endDate
+  | rename personalTitle as prefix, displayName as nick, givenName as first, sn as last,
+      mail as email, telephoneNumber as phone,  mobile as phone2, manager as managedBy,
+      department as bunit, whenCreated as startDate
+  | append [
+      ldapsearch domain=ENG search="(&amp;(objectClass=user)(!(objectClass=computer)))"
+      | search userAccountControl="NORMAL_ACCOUNT"
+      | eval suffix=""
+      | eval priority="medium"
+      | eval category="normal"
+      | eval watchlist="false"
+      | eval endDate=""
+      | eval identity = "ENG\\" + sAMAccountName
+      | table identity, personalTitle, displayName, givenName, sn, suffix, mail, telephoneNumber,
+          mobile, manager, priority, department, category, watchlist, whenCreated, endDate
+      | rename personalTitle as prefix, displayName as nick, givenName as first, sn as last,
+          mail as email, telephoneNumber as phone,  mobile as phone2, manager as managedBy,
+          department as bunit, whenCreated as startDate]
+</pre>
+</div>
+     </html>
+   </panel>
+ </row>
+</form>

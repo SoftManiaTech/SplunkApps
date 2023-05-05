@@ -1,0 +1,2 @@
+2015-01-06T10:52:12-08:00 Type="Site" ForestName="spl.com" Site="Default-First-Site-Name" Location=""IntersiteTopologyGenerator="WIN-6LR3JNJ6LVD.spl.com" SiteLink="DEFAULTIPSITELINK"
+2015-01-06T10:52:12-08:00 Type="SiteLink" ForestName="spl.com" Name="DEFAULTIPSITELINK" Cost=100 DataCompressionEnabled=True NotificationEnabled=False ReciprocalReplicationEnabled=False TransportType=Rpc ReplicationIntervalSecs=10800 Site="Default-First-Site-Name"
