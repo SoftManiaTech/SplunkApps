@@ -1,7 +1,7 @@
 Connect forwarder with Deployment Server:
 
 ```bash
-./splunk set deploy-poll ds1.mycompany.com:8089
+/opt/splunkforwarder/bin/splunk set deploy-poll ds1.mycompany.com:8089
 ```
 
 Connect Forwarder with Indexers:
